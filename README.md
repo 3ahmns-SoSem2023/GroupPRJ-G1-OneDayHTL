@@ -1,9 +1,9 @@
 # G1-HTLTag
 
-Workingtitle: 
-Short description:
+Workingtitle: DepressionSimulator
+Short description: Htl-Simulator 
 
-+ Teammembers: 
++ Teammembers: Janes Angerer, Moriz Gaisberger, Tamas Galambos, Lukas Holleis, Hannah Hollweger, Sebastian Lienbacher
 + Developmentplattform: Unity 2020.3.18f1, Visual Studio, Mac, Win;
 + Targetplatform: WebGL, Referenzresolution Full-HD 1920x1080
 
