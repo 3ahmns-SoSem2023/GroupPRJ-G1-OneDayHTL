@@ -1,0 +1,7 @@
+Coding Tasks and Status:
+-Change Text using a Method [finished]
+-Determine the decision that was made [WIP]
+-Detemine what Event should happen as a result of that decision (manage Game States) [unfinished]
+-Change the background using a method [unfinished]
+-Save and access status effects [unfinished]
+-Chapter transition [unfinished]
