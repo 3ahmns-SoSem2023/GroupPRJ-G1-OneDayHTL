@@ -1,1 +1,33 @@
-Hallo hier ist der test text zum pushen
+"Hallo hier ist der test text zum pushen"
+
+
+- Servus und Willkommen zu einem Text Adventure über den klassischen Tag eines Schülers an der HTL Itzling. Du bist ein Schüler/eine Schülerin in der dritten Klasse und bereitest dich in ein aufregendes Abenteuer am nächsten Tag vor. Bist du bereit, deine Schultasche zu schnappen und loszulegen?
+
+- Pack mal deinen Ranzen und stell dir den Wecker! Bis Morgen!
+
+- Alles Klar!
+
+
+
+Wecker Läutet 
+
+
+
+LATE INTRO
+
+- Oh Shit man, Ich hab übelst verschlafen! Ich sollte mich jetzt wirklich beeilen, sont verpasse ich noch den Bus!
+
+--> qick
+
+
+
+ON TIME INTRO
+
+- Oughhhhh, *smack* *smack*. Okay erste Hürde überwunden. Jetzt mach ich mich mal Fertig für den "tollen" Schultag.
+
+
+--> qick
+-Ich beeil mich mal lieber, Ich habe heute noch einen Test wofür ich noch im Bus "lernen" muss.
+
+--> slow
+- Erstmal was geiles Frühstücken digga. Wo hat meine Mudda denn die Lasagne von gestern hingetan???
