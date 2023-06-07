@@ -10,12 +10,14 @@ public class GameManager : MonoBehaviour
     public ChangeTxT[] texts;
     public Sprite[] sprites;
     public ChangeImg[] images;
+    public StatusEffectStorage efctStorage;
 
     private void Awake()
     {
         Instance = this;
     }
 
+    //Liste aller GameStates
     public enum GameState
     {
         StartScreen0,
@@ -23,11 +25,16 @@ public class GameManager : MonoBehaviour
         Late2
     }
 
+
     private void Start()
     {
+        //Setzt die Start Szene
         UpdateGameState(0);
+        //Findet den StatusEffectStorage
+        efctStorage = GameObject.Find("StatusEffectStorage").GetComponent<StatusEffectStorage>();
     }
 
+    //Updatet den GameState zum in der Variable spezifizierten
     public void UpdateGameState(GameState newState)
     {
         State = newState;
@@ -46,6 +53,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    //Check wann und welcher Knopf gedrückt wurde
     public void BtnPressed(int btnNumber)
     {
         if (btnNumber == 0)
@@ -61,11 +69,13 @@ public class GameManager : MonoBehaviour
         
     }
 
+
+    //ST == Scene Transition, setzt Text, Bild, Ambience & co für neue Szenen
     public void STStart0()
     {
         texts[0].SetText("First Scene");
         texts[1].SetText("In Bed");
-        texts[2].SetText("/");
+        texts[2].SetText(efctStorage.FetchStatus());
         texts[3].SetText("Choose");
         texts[4].SetText("early");
         texts[5].SetText("late");
@@ -75,10 +85,11 @@ public class GameManager : MonoBehaviour
     {
         texts[0].SetText("Second Scene");
         texts[1].SetText("Home");
-        texts[2].SetText("tired");
+        texts[2].SetText(efctStorage.FetchStatus());
         texts[3].SetText("Choose");
         texts[4].SetText("quick");
         texts[5].SetText("slow");
+
         images[0].SetImg(sprites[0]);
     }
 
