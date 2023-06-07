@@ -15,7 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_ATMO_CAFETERIA = 266329026U;
         static const AkUniqueID PLAY_ATMO_WECKER_TICKING = 3773372227U;
-        static const AkUniqueID PLAY_SFX_BUS = 1375066508U;
+        static const AkUniqueID PLAY_SFX_BUS_MISSED = 781912892U;
         static const AkUniqueID PLAY_SFX_WECKER_KLINGELN = 391034186U;
     } // namespace EVENTS
 
