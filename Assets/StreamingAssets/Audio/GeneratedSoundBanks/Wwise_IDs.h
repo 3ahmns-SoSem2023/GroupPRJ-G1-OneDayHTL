@@ -13,7 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_ENTERINGGREATHALL_SHORTMUSIC_V01 = 3374195952U;
+        static const AkUniqueID PLAY_ATMO_CAFETERIA = 266329026U;
+        static const AkUniqueID PLAY_ATMO_WECKER_TICKING = 3773372227U;
+        static const AkUniqueID PLAY_SFX_BUS = 1375066508U;
+        static const AkUniqueID PLAY_SFX_WECKER_KLINGELN = 391034186U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
@@ -33,6 +36,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID ATMOS = 3034623661U;
         static const AkUniqueID MAIN = 3161908922U;
     } // namespace BANKS
 
