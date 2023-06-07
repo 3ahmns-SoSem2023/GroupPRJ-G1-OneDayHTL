@@ -29,7 +29,6 @@ public class StatusEffectStorage : MonoBehaviour
                 break;
             }
         }
-        AddEffects("/");
     }
 
     public void GetEffects()
@@ -45,7 +44,7 @@ public class StatusEffectStorage : MonoBehaviour
 
     public void AddEffects(string newEffect)
     {
-        if (effectText != null)
+        if (effectText == "/")
         {
             effectText += "," + newEffect;
         }
