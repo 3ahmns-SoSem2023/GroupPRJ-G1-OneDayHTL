@@ -331,8 +331,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f33eede9dc16f0449299c272baa1892a
     GuidInternal: 
-    m_lastTime: -8585172698498953299
+    m_lastTime: -8585154608383864144
     List:
+    - name: Atmos
+      guid: a83a9d58176cd24da0e6e9dd0c46029a
+      id: 3034623661
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f33eede9dc16f0449299c272baa1892a
+      - ElementName: Atmos
+        ObjectType: 7
+        guid: a83a9d58176cd24da0e6e9dd0c46029a
+      Path: SoundBanks\Default Work Unit\Atmos
     - name: Main
       guid: 49f01d34edb3a544b3f3abbc8ab05acf
       id: 3161908922
@@ -359,11 +373,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 207ad1efba50c14caa661a591f037116
     GuidInternal: 
-    m_lastTime: -8585172698498773773
+    m_lastTime: -8585154608383953869
     List:
-    - name: Play_enteringGreatHall_shortMusic_v01
-      guid: 48acad681166ec43a214d815d56cc597
-      id: 3374195952
+    - name: Play_atmo_cafeteria
+      guid: 5ac1b9803fff8b4da8b1e77d06d24db0
+      id: 266329026
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -371,10 +385,61 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 207ad1efba50c14caa661a591f037116
-      - ElementName: Play_enteringGreatHall_shortMusic_v01
+      - ElementName: Play_atmo_cafeteria
         ObjectType: 3
-        guid: 48acad681166ec43a214d815d56cc597
-      Path: Events\Default Work Unit\Play_enteringGreatHall_shortMusic_v01
+        guid: 5ac1b9803fff8b4da8b1e77d06d24db0
+      Path: Events\Default Work Unit\Play_atmo_cafeteria
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_atmo_wecker_ticking
+      guid: 1eab30dc2bdecf4d88a0ad0f60842e64
+      id: 3773372227
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_atmo_wecker_ticking
+        ObjectType: 3
+        guid: 1eab30dc2bdecf4d88a0ad0f60842e64
+      Path: Events\Default Work Unit\Play_atmo_wecker_ticking
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_sfx_bus
+      guid: 84b1f92810f52c459180b8e33dfd4b22
+      id: 1375066508
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_sfx_bus
+        ObjectType: 3
+        guid: 84b1f92810f52c459180b8e33dfd4b22
+      Path: Events\Default Work Unit\Play_sfx_bus
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_sfx_wecker_klingeln
+      guid: 0e74a673d50eb54f897b127a6ed931c9
+      id: 391034186
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_sfx_wecker_klingeln
+        ObjectType: 3
+        guid: 0e74a673d50eb54f897b127a6ed931c9
+      Path: Events\Default Work Unit\Play_sfx_wecker_klingeln
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
