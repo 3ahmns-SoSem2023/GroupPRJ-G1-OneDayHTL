@@ -352,7 +352,11 @@ MonoBehaviour:
   - {fileID: 26155595}
   - {fileID: 818613615}
   sprites:
-  - {fileID: 21300000, guid: 88deb4ce1697f294d82dbade26b84cee, type: 3}
+  - {fileID: 21300000, guid: 2bdae88586587684ea12bf42f62eaa9f, type: 3}
+  - {fileID: 21300000, guid: 98457a1cc75a4df40983cc97fe8b282e, type: 3}
+  - {fileID: 21300000, guid: 34a5d2fe551fd734997e5c0d93a2d972, type: 3}
+  - {fileID: 21300000, guid: bc200ab535f746545b5ba448ce61a1c2, type: 3}
+  - {fileID: 21300000, guid: c75b60a5dcfd65e43aa36fe5d08d59a1, type: 3}
   images:
   - {fileID: 1686763889}
   efctStorage: {fileID: 627451113}
@@ -2699,7 +2703,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2bdae88586587684ea12bf42f62eaa9f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

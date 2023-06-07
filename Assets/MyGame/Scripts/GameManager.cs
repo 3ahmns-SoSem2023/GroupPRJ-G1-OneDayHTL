@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
         switch (newState)
         {
             case GameState.StartScreen0:
-                STStart0();
+                Invoke("STStart0", 0.01f);
                 break;
             case GameState.Early1:
                 STEarly1();
@@ -89,7 +89,7 @@ public class GameManager : MonoBehaviour
         texts[4].SetText("early");
         texts[5].SetText("late");
 
-        //no img change yet
+        images[0].SetImg(sprites[0]);
 
         nxtState1 = GameState.Early1;
         nxtState2 = GameState.Late2;
@@ -106,7 +106,7 @@ public class GameManager : MonoBehaviour
         texts[4].SetText("quick");
         texts[5].SetText("slow");
 
-        images[0].SetImg(sprites[0]);
+        images[0].SetImg(sprites[1]);
 
         nxtState1 = GameState.GameEnd3;
         nxtState2 = GameState.GameEnd3;
@@ -123,7 +123,7 @@ public class GameManager : MonoBehaviour
         texts[4].SetText("quick");
         texts[5].SetText("slow");
 
-        //no img change yet
+        images[0].SetImg(sprites[1]);
 
         nxtState1 = GameState.GameEnd3;
         nxtState2 = GameState.GameEnd3;
@@ -143,6 +143,6 @@ public class GameManager : MonoBehaviour
 
         texts[7].gameObject.SetActive(true);
         texts[7].SetText("Game is over");
-        //images[].SetImg(sprites[]);
+        images[0].SetImg(sprites[2]);
     }
 }
