@@ -21,7 +21,8 @@ namespace AK
         static const AkUniqueID PLAY_SFX_BUS_MISSED = 781912892U;
         static const AkUniqueID PLAY_SFX_ENERGYCANOPEN = 803833784U;
         static const AkUniqueID PLAY_SFX_THROWUP = 4228454885U;
-        static const AkUniqueID PLAY_SFX_WECKER_KLINGELN = 391034186U;
+        static const AkUniqueID PLAY_SFX_WECKER_KLINGELN_EARLY = 2380211326U;
+        static const AkUniqueID PLAY_SFX_WECKER_KLINGELN_LATE = 1449785589U;
         static const AkUniqueID STOP_ATMO_CAFETERIA = 916655772U;
         static const AkUniqueID STOP_ATMO_COFFEESHOP = 3082058498U;
         static const AkUniqueID STOP_ATMO_SCHOOLPUPILS = 1690344493U;

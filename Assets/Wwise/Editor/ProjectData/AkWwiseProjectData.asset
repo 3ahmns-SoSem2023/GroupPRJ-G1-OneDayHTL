@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f33eede9dc16f0449299c272baa1892a
     GuidInternal: 
-    m_lastTime: -8585148545844524222
+    m_lastTime: -8585148537644163511
     List:
     - name: Atmos
       guid: a83a9d58176cd24da0e6e9dd0c46029a
@@ -387,7 +387,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 207ad1efba50c14caa661a591f037116
     GuidInternal: 
-    m_lastTime: -8585148546276166292
+    m_lastTime: -8585148537644243425
     List:
     - name: Play_atmo_cafeteria
       guid: 5ac1b9803fff8b4da8b1e77d06d24db0
@@ -525,9 +525,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_sfx_wecker_klingeln
-      guid: 0e74a673d50eb54f897b127a6ed931c9
-      id: 391034186
+    - name: Play_sfx_wecker_klingeln_early
+      guid: 7bf08a487bfe294fbc195dce1a5df960
+      id: 2380211326
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -535,10 +535,27 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 207ad1efba50c14caa661a591f037116
-      - ElementName: Play_sfx_wecker_klingeln
+      - ElementName: Play_sfx_wecker_klingeln_early
         ObjectType: 3
-        guid: 0e74a673d50eb54f897b127a6ed931c9
-      Path: Events\Default Work Unit\Play_sfx_wecker_klingeln
+        guid: 7bf08a487bfe294fbc195dce1a5df960
+      Path: Events\Default Work Unit\Play_sfx_wecker_klingeln_early
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_sfx_wecker_klingeln_late
+      guid: 0f4eecc0fe3c064f9d493bc874969233
+      id: 1449785589
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_sfx_wecker_klingeln_late
+        ObjectType: 3
+        guid: 0f4eecc0fe3c064f9d493bc874969233
+      Path: Events\Default Work Unit\Play_sfx_wecker_klingeln_late
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -820,7 +837,7 @@ MonoBehaviour:
     m_lastTime: -8585172704156700016
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000a0000001700000018000000
+  ExpandedWaapiItemIds: 05000000060000000a0000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
