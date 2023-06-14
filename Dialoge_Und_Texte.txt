@@ -25,8 +25,7 @@ Du hast den Wecker nicht gehört...
 
 ON TIME INTRO
 
-- Oughhhhh, *smack* *smack*. Okay erste Hürde überwunden. Jetzt mach ich mich mal Fertig für den "tollen" Schultag.
-
+Du bist rechtzeitig aufgestanden! Was willst du jetzt machen?
 
 --> qick
 -Ich beeil mich mal lieber, Ich habe heute noch einen Test wofür ich noch im Bus "lernen" muss.
@@ -35,58 +34,85 @@ ON TIME INTRO
 - Erstmal was geiles Frühstücken digga. Wo hat meine Mudda denn die Lasagne von gestern hingetan???
 
 
+Du hast dich fertig gemacht und verlässt das Haus
+
+Bus verpasst:
+Du hast den Bus verpasst... Schreib deinen Klassenkameraden, dass du zu spätkommst und der Lehrperson bescheid geben sollen.
+-OK. Warum aber? Das ändert doch nichts an meiner Situation und Entschuldigt ist es doch auch nicht dadurch? (BEEP BEEP FRAG MICH DAS NICHT ICH BIN EIN KOMPUTER / FRAG DEINE KAMERADEN)
+
+-OK
+
+Bus erwischt:
+
+Du hast den Bus erwischt. Auf zur Schule!
+-Jawoll!
+
+
+CHAPTER A
+Du Bist an der Schule angekommen! Gratuliere!
+
+{(tired intra)
+
+Energy beim Erich kaufen? Dann bist du nicht mehr müde!
+-Ja ok, ist aber echt teuer Man.
+
+ENDING 11 (Zucker Herzstillstand 5%)
+<Du bist durch random Koffein und Zucker überschuss an einem Herzinfarkt gestorben. RIP du Lusche>
+}	ELSE-->
+
+-Erstmal bisschen Chillen. Kollegas sind in der Kafetaria.
+
+-Okay. Ich geh gleich in die Klasse und gib alles heute.
 
 
 
-ENDING 1 (Tired && Hungry) 5% Chance to happen
+ENDING 2
+Du hast den Überraschungstest komplett verpasst, weil du die Zeit vergessen hast, während du mit deine Kollegas in der Cafeteria gegessen hast
 
-Du hast den Bus erwischt. Sehr Gut!
-
-
-Du bist im Bus eingeschlafen und bist bis zur letzten Station gefahren, du hast den ganzen Tag verpasst.
-
-
-
-
-
-Möglich States bis Jetzt:
-
-Bus not missed because QUICK
-(Awake Late Hungry)
-(Awake Hungry)
-(Tired Hungry)
-
-Bus missed because SLOW
-(CHAPTER B)
-
-Bus not missed because SLOW
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ENDING 3
+Du hast den ganzen Tag hart gearbeitet und den Überraschungstest mit Leichtigkeit bestanden.
 
 
 
 
 
+CHAPTER B
+Du Bist an der Schule angekommen! Gratuliere!
+Nur Zuspät... Zehentner wär nicht stolz auf dich.
+Beeil dich
+
+Jetzt bist du bei der Klasse, Was machst du?
+
+(Appology ENDING 4)
+- Ehrlich sein und grüßen beim Reingehen
+
+Der Lehrer schaut zwar nicht ganz glücklich aus, aber zumindest freut er sich über deine Ehrlichkeit!!
+...
+Bekommst trotzdem Eintrag
+
+
+(Sneak in ENDING 5)
+
+-Reinsneaken wenn der Lehrer wegschaut. Beziehungsweise im richtigen Moment reingehen
+
+Der Lehrer Sieht dich und ist Sehr abgefuckt dass du so hinterhältig bist.
+Du beckomst ein Stück Kreide ab und wirst als fehlend eingetragen.
 
 
 
 
-Moritz Methode 
-Immer nur 1 Strang
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
