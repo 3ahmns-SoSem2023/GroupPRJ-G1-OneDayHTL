@@ -16,7 +16,10 @@ public class GameManager : MonoBehaviour
     [Header("Wwise Variablen")]
     public AK.Wwise.Event playWeckerAtmo;
     public AK.Wwise.Event stopWeckerAtmo;
-    public AK.Wwise.Event playEndingMusic01;
+
+    public AK.Wwise.Event playStartAndEndingMusic;
+    public AK.Wwise.Event stopStartAndEndingMusic;
+
     public AK.Wwise.Event playWeckerEarly;
     public AK.Wwise.Event playWeckerLate;
 
@@ -100,6 +103,7 @@ public class GameManager : MonoBehaviour
         nxtState2 = GameState.Late2;
 
         //Wwise
+        playStartAndEndingMusic.Post(gameObject);
         playWeckerAtmo.Post(gameObject); 
     }
 
@@ -121,6 +125,7 @@ public class GameManager : MonoBehaviour
 
         //Wwise
         playWeckerEarly.Post(gameObject);
+        stopStartAndEndingMusic.Post(gameObject); 
     }
 
     public void STLate2()
@@ -141,9 +146,8 @@ public class GameManager : MonoBehaviour
 
         //Wwise
         playWeckerLate.Post(gameObject);
+        stopStartAndEndingMusic.Post(gameObject);
     }
-
-
 
     public void EndGame()
     {
@@ -162,6 +166,6 @@ public class GameManager : MonoBehaviour
 
         //Wwise
         stopWeckerAtmo.Post(gameObject);
-        playEndingMusic01.Post(gameObject);
+        playStartAndEndingMusic.Post(gameObject);
     }
 }
