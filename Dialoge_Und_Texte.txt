@@ -15,6 +15,8 @@ Wecker Läutet
 
 LATE INTRO
 
+Du hast den Wecker nicht gehört...
+
 - Oh Shit man, Ich hab übelst verschlafen! Ich sollte mich jetzt wirklich beeilen, sont verpasse ich noch den Bus!
 
 --> qick
@@ -31,3 +33,61 @@ ON TIME INTRO
 
 --> slow
 - Erstmal was geiles Frühstücken digga. Wo hat meine Mudda denn die Lasagne von gestern hingetan???
+
+
+
+
+
+ENDING 1 (Tired && Hungry) 5% Chance to happen
+
+Du hast den Bus erwischt. Sehr Gut!
+
+
+Du bist im Bus eingeschlafen und bist bis zur letzten Station gefahren, du hast den ganzen Tag verpasst.
+
+
+
+
+
+Möglich States bis Jetzt:
+
+Bus not missed because QUICK
+(Awake Late Hungry)
+(Awake Hungry)
+(Tired Hungry)
+
+Bus missed because SLOW
+(CHAPTER B)
+
+Bus not missed because SLOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Moritz Methode 
+Immer nur 1 Strang
+
+
+
+
