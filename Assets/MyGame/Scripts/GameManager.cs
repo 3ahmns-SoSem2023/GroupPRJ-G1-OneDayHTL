@@ -34,7 +34,11 @@ public class GameManager : MonoBehaviour
         StartScreen0,
         Early1,
         Late2,
-        GameEnd3
+        PrepSlow,
+        QuickPrep,
+        Chapter1,
+        Chapter2,
+        Ending1
     }
 
 
@@ -59,13 +63,33 @@ public class GameManager : MonoBehaviour
                 Invoke("STStart0", 0.01f);
                 break;
             case GameState.Early1:
+                efctStorage.statusEffects[0] = true;
                 STEarly1();
                 break;
             case GameState.Late2:
-                STLate2();
+                if (Random.Range(0, 2) == 0)
+                {
+                    STEarly1();
+                }
+                else
+                {
+                    STLate2();
+                }
                 break;
-            case GameState.GameEnd3:
-                EndGame();
+            case GameState.PrepSlow:
+                PrepSlow();
+                break;
+            case GameState.Chapter1:
+                Chapter1();
+                break;
+            case GameState.Chapter2:
+                Chapter2();
+                break;
+            case GameState.QuickPrep:
+                QuickPrep();
+                break;
+            case GameState.Ending1:
+                Ending1();
                 break;
         }
     }
@@ -84,7 +108,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void OneButton()
+    {
+        twoButtons.SetActive(false);
+        oneButton.SetActive(true);
+    }
 
+    public void TwoButton()
+    {
+        twoButtons.SetActive(true);
+        oneButton.SetActive(false);
+    }
+
+
+    //All scene transitions
     //ST == Scene Transition, setzt Text, Bild, Ambience & co für neue Szenen
     public void STStart0()
     {
@@ -109,7 +146,7 @@ public class GameManager : MonoBehaviour
 
     public void STEarly1()
     {
-        efctStorage.statusEffects[0] = true;
+        //effects are done earlier
 
         texts[0].SetText("Second Scene");
         texts[1].SetText("Home");
@@ -120,14 +157,14 @@ public class GameManager : MonoBehaviour
 
         images[0].SetImg(sprites[1]);
 
-        nxtState1 = GameState.GameEnd3;
-        nxtState2 = GameState.GameEnd3;
+        nxtState1 = GameState.QuickPrep;
+        nxtState2 = GameState.PrepSlow;
 
         //Wwise
         playWeckerEarly.Post(gameObject);
         stopStartAndEndingMusic.Post(gameObject); 
     }
-
+    //Update this
     public void STLate2()
     {
         efctStorage.statusEffects[2] = true;
@@ -140,16 +177,73 @@ public class GameManager : MonoBehaviour
         texts[5].SetText("slow");
 
         images[0].SetImg(sprites[1]);
-
-        nxtState1 = GameState.GameEnd3;
-        nxtState2 = GameState.GameEnd3;
+        //temporary reroute to ending
+        nxtState1 = GameState.Ending1;
+        nxtState2 = GameState.Ending1;
 
         //Wwise
         playWeckerLate.Post(gameObject);
         stopStartAndEndingMusic.Post(gameObject);
     }
 
-    public void EndGame()
+    public void PrepSlow()
+    {
+        if (Random.Range(0, 100) > 15)
+        {
+            UpdateGameState(GameState.Chapter1);
+        }
+        else
+        {
+            UpdateGameState(GameState.Chapter2);
+        }
+        
+    }
+
+    public void QuickPrep()
+    {
+        efctStorage.statusEffects[1] = true;
+        UpdateGameState(GameState.Chapter1);
+    }
+
+    public void Chapter1()
+    {
+        if (efctStorage.statusEffects[0])
+        {
+            if (Random.Range(0, 100) > 5)
+            {
+                Debug.Log("Chapter1");
+            }
+            else
+            {
+                UpdateGameState(GameState.Ending1);
+            }
+        }
+        else
+        {
+            Debug.Log("Chapter1");
+        }
+    }
+
+    public void Chapter2()
+    {
+        if (efctStorage.statusEffects[0])
+        {
+            if (Random.Range(0, 100) > 5)
+            {
+                Debug.Log("Chapter2");
+            }
+            else
+            {
+                UpdateGameState(GameState.Ending1);
+            }
+        }
+        else
+        {
+            Debug.Log("Chapter2");
+        }
+    }
+
+    public void Ending1()
     {
         oneButton.SetActive(false);
         twoButtons.SetActive(false);
