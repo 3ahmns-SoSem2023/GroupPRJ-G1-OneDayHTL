@@ -38,10 +38,56 @@ ON TIME INTRO
 
 
 
-ENDING 1 (Tired State Only)
+ENDING 1 (Tired && Hungry) 5% Chance to happen
 
 Du hast den Bus erwischt. Sehr Gut!
 
 
 Du bist im Bus eingeschlafen und bist bis zur letzten Station gefahren, du hast den ganzen Tag verpasst.
+
+
+
+
+
+Möglich States bis Jetzt:
+
+Bus not missed because QUICK
+(Awake Late Hungry)
+(Awake Hungry)
+(Tired Hungry)
+
+Bus missed because SLOW
+(CHAPTER B)
+
+Bus not missed because SLOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Moritz Methode 
+Immer nur 1 Strang
+
+
+
 
