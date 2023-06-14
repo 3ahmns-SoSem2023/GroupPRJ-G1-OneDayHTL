@@ -13,6 +13,11 @@ public class GameManager : MonoBehaviour
     public StatusEffectStorage efctStorage;
     public GameObject twoButtons, oneButton;
 
+    [Header("Wwise Variablen")]
+    public AK.Wwise.Event playWeckerAtmo;
+    public AK.Wwise.Event stopWeckerAtmo;
+    public AK.Wwise.Event playEndingMusic01; 
+
     private void Awake()
     {
         Instance = this;
@@ -93,6 +98,9 @@ public class GameManager : MonoBehaviour
 
         nxtState1 = GameState.Early1;
         nxtState2 = GameState.Late2;
+
+        //Wwise
+        playWeckerAtmo.Post(gameObject); 
     }
 
     public void STEarly1()
@@ -144,5 +152,10 @@ public class GameManager : MonoBehaviour
         texts[7].gameObject.SetActive(true);
         texts[7].SetText("Game is over");
         images[0].SetImg(sprites[2]);
+
+
+        //Wwise
+        stopWeckerAtmo.Post(gameObject);
+        playEndingMusic01.Post(gameObject);
     }
 }

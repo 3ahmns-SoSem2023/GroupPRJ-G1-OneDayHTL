@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f33eede9dc16f0449299c272baa1892a
     GuidInternal: 
-    m_lastTime: -8585154608383864144
+    m_lastTime: -8585148545844524222
     List:
     - name: Atmos
       guid: a83a9d58176cd24da0e6e9dd0c46029a
@@ -361,6 +361,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 49f01d34edb3a544b3f3abbc8ab05acf
       Path: SoundBanks\Default Work Unit\Main
+    - name: Music
+      guid: f9360ac202330942b2d4365942367fad
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f33eede9dc16f0449299c272baa1892a
+      - ElementName: Music
+        ObjectType: 7
+        guid: f9360ac202330942b2d4365942367fad
+      Path: SoundBanks\Default Work Unit\Music
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -373,7 +387,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 207ad1efba50c14caa661a591f037116
     GuidInternal: 
-    m_lastTime: -8585154608383953869
+    m_lastTime: -8585148546276166292
     List:
     - name: Play_atmo_cafeteria
       guid: 5ac1b9803fff8b4da8b1e77d06d24db0
@@ -389,6 +403,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5ac1b9803fff8b4da8b1e77d06d24db0
       Path: Events\Default Work Unit\Play_atmo_cafeteria
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_atmo_coffeeshop
+      guid: 368e87fbb736ab4281a23d75b7f03160
+      id: 1912263280
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_atmo_coffeeshop
+        ObjectType: 3
+        guid: 368e87fbb736ab4281a23d75b7f03160
+      Path: Events\Default Work Unit\Play_atmo_coffeeshop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_atmo_schoolPupils
+      guid: a6c104025636e5409e7c1fe6ddd2e371
+      id: 4214973335
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_atmo_schoolPupils
+        ObjectType: 3
+        guid: a6c104025636e5409e7c1fe6ddd2e371
+      Path: Events\Default Work Unit\Play_atmo_schoolPupils
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -409,9 +457,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_sfx_bus
-      guid: 84b1f92810f52c459180b8e33dfd4b22
-      id: 1375066508
+    - name: Play_ending_Music01
+      guid: bf824ef28fad77488bb5b593408c78e3
+      id: 1943873006
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -419,10 +467,61 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 207ad1efba50c14caa661a591f037116
-      - ElementName: Play_sfx_bus
+      - ElementName: Play_ending_Music01
+        ObjectType: 3
+        guid: bf824ef28fad77488bb5b593408c78e3
+      Path: Events\Default Work Unit\Play_ending_Music01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_sfx_bus_missed
+      guid: 84b1f92810f52c459180b8e33dfd4b22
+      id: 781912892
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_sfx_bus_missed
         ObjectType: 3
         guid: 84b1f92810f52c459180b8e33dfd4b22
-      Path: Events\Default Work Unit\Play_sfx_bus
+      Path: Events\Default Work Unit\Play_sfx_bus_missed
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_sfx_energyCanOpen
+      guid: 9f13249ca5ddcb42b5070a3b287a98a1
+      id: 803833784
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_sfx_energyCanOpen
+        ObjectType: 3
+        guid: 9f13249ca5ddcb42b5070a3b287a98a1
+      Path: Events\Default Work Unit\Play_sfx_energyCanOpen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_sfx_throwUp
+      guid: ea4a7e1d5cb0bf439f5d67aac4bb5628
+      id: 4228454885
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_sfx_throwUp
+        ObjectType: 3
+        guid: ea4a7e1d5cb0bf439f5d67aac4bb5628
+      Path: Events\Default Work Unit\Play_sfx_throwUp
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -440,6 +539,74 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0e74a673d50eb54f897b127a6ed931c9
       Path: Events\Default Work Unit\Play_sfx_wecker_klingeln
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_atmo_cafeteria
+      guid: 6361efd4ebb87644b5af49b145ce8ce4
+      id: 916655772
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Stop_atmo_cafeteria
+        ObjectType: 3
+        guid: 6361efd4ebb87644b5af49b145ce8ce4
+      Path: Events\Default Work Unit\Stop_atmo_cafeteria
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_atmo_coffeeshop
+      guid: a05823f3667cd74d94242187acab4459
+      id: 3082058498
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Stop_atmo_coffeeshop
+        ObjectType: 3
+        guid: a05823f3667cd74d94242187acab4459
+      Path: Events\Default Work Unit\Stop_atmo_coffeeshop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_atmo_schoolPupils
+      guid: 4afee572c4856f44b94546ba8e48dc39
+      id: 1690344493
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Stop_atmo_schoolPupils
+        ObjectType: 3
+        guid: 4afee572c4856f44b94546ba8e48dc39
+      Path: Events\Default Work Unit\Stop_atmo_schoolPupils
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_atmo_wecker_ticking
+      guid: 348e1c1805245e428311b5204c876761
+      id: 1506823617
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Stop_atmo_wecker_ticking
+        ObjectType: 3
+        guid: 348e1c1805245e428311b5204c876761
+      Path: Events\Default Work Unit\Stop_atmo_wecker_ticking
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -653,7 +820,7 @@ MonoBehaviour:
     m_lastTime: -8585172704156700016
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000b000000
+  ExpandedWaapiItemIds: 050000000a0000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

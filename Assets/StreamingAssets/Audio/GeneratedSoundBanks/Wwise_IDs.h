@@ -14,9 +14,18 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_ATMO_CAFETERIA = 266329026U;
+        static const AkUniqueID PLAY_ATMO_COFFEESHOP = 1912263280U;
+        static const AkUniqueID PLAY_ATMO_SCHOOLPUPILS = 4214973335U;
         static const AkUniqueID PLAY_ATMO_WECKER_TICKING = 3773372227U;
+        static const AkUniqueID PLAY_ENDING_MUSIC01 = 1943873006U;
         static const AkUniqueID PLAY_SFX_BUS_MISSED = 781912892U;
+        static const AkUniqueID PLAY_SFX_ENERGYCANOPEN = 803833784U;
+        static const AkUniqueID PLAY_SFX_THROWUP = 4228454885U;
         static const AkUniqueID PLAY_SFX_WECKER_KLINGELN = 391034186U;
+        static const AkUniqueID STOP_ATMO_CAFETERIA = 916655772U;
+        static const AkUniqueID STOP_ATMO_COFFEESHOP = 3082058498U;
+        static const AkUniqueID STOP_ATMO_SCHOOLPUPILS = 1690344493U;
+        static const AkUniqueID STOP_ATMO_WECKER_TICKING = 1506823617U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
@@ -38,6 +47,7 @@ namespace AK
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID ATMOS = 3034623661U;
         static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BANKS
 
     namespace BUSSES
