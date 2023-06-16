@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyGame/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/MyGame/Scenes/Chapter1.unity
+    guid: 4db94494ca6c39540ad533a9a5af6e72
+  - enabled: 1
+    path: Assets/MyGame/Scenes/Chapter2.unity
+    guid: 24d43b062bd6b2b4287dc97ba42e7ac7
+  - enabled: 1
+    path: Assets/MyGame/Scenes/Chapter3.unity
+    guid: b092f05e1f343034d856c677d48651b5
+  - enabled: 1
+    path: Assets/MyGame/Scenes/Chapter4.unity
+    guid: 3f0866cb87f6ac64bb73dd9de284cc3c
   m_configObjects: {}

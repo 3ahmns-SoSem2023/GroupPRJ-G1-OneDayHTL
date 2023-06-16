@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -38,6 +39,8 @@ public class GameManager : MonoBehaviour
         QuickPrep,
         Chapter1,
         Chapter2,
+        Chapter3,
+        Chapter4,
         Ending1
     }
 
@@ -48,8 +51,6 @@ public class GameManager : MonoBehaviour
         UpdateGameState(0);
         //Findet den StatusEffectStorage
         efctStorage = GameObject.FindGameObjectWithTag("statusEfctStorage").GetComponent<StatusEffectStorage>();
-
-
     }
 
     //Updatet den GameState zum in der Variable spezifizierten
@@ -84,6 +85,12 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.Chapter2:
                 Chapter2();
+                break;
+            case GameState.Chapter3:
+                Chapter3();
+                break;
+            case GameState.Chapter4:
+                Chapter4();
                 break;
             case GameState.QuickPrep:
                 QuickPrep();
@@ -169,17 +176,17 @@ public class GameManager : MonoBehaviour
     {
         efctStorage.statusEffects[2] = true;
 
+        OneButton();
+
         texts[0].SetText("Third Scene");
         texts[1].SetText("Home");
         texts[2].SetText(efctStorage.FetchStatus());
         texts[3].SetText("Choose");
-        texts[4].SetText("quick");
-        texts[5].SetText("slow");
+        texts[6].SetText("quick");
 
         images[0].SetImg(sprites[1]);
-        //temporary reroute to ending
-        nxtState1 = GameState.Ending1;
-        nxtState2 = GameState.Ending1;
+
+        nxtState1 = GameState.QuickPrep;
 
         //Wwise
         playWeckerLate.Post(gameObject);
@@ -202,16 +209,25 @@ public class GameManager : MonoBehaviour
     public void QuickPrep()
     {
         efctStorage.statusEffects[1] = true;
-        UpdateGameState(GameState.Chapter1);
+        if (efctStorage.statusEffects[2])
+        {
+            UpdateGameState(GameState.Chapter4);
+        }
+        else
+        {
+            UpdateGameState(GameState.Chapter3);
+        }
+
     }
 
     public void Chapter1()
     {
+        //Checks for tired and first ending
         if (efctStorage.statusEffects[0])
         {
             if (Random.Range(0, 100) > 5)
             {
-                Debug.Log("Chapter1");
+                SceneManager.LoadScene(1);
             }
             else
             {
@@ -220,17 +236,18 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Chapter1");
+            SceneManager.LoadScene(1);
         }
     }
 
     public void Chapter2()
     {
+        //Checks for tired and first ending
         if (efctStorage.statusEffects[0])
         {
             if (Random.Range(0, 100) > 5)
             {
-                Debug.Log("Chapter2");
+                SceneManager.LoadScene(2);
             }
             else
             {
@@ -239,7 +256,47 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Chapter2");
+            SceneManager.LoadScene(2);
+        }
+    }
+
+    public void Chapter3()
+    {
+        //Checks for tired and first ending
+        if (efctStorage.statusEffects[0])
+        {
+            if (Random.Range(0, 100) > 5)
+            {
+                SceneManager.LoadScene(3);
+            }
+            else
+            {
+                UpdateGameState(GameState.Ending1);
+            }
+        }
+        else
+        {
+            SceneManager.LoadScene(3);
+        }
+    }
+
+    public void Chapter4()
+    {
+        //Checks for tired and first ending
+        if (efctStorage.statusEffects[0])
+        {
+            if (Random.Range(0, 100) > 5)
+            {
+                SceneManager.LoadScene(4);
+            }
+            else
+            {
+                UpdateGameState(GameState.Ending1);
+            }
+        }
+        else
+        {
+            SceneManager.LoadScene(4);
         }
     }
 

@@ -360,8 +360,8 @@ MonoBehaviour:
   images:
   - {fileID: 1686763889}
   efctStorage: {fileID: 627451113}
-  twoButtons: {fileID: 1673279762}
-  oneButton: {fileID: 365779035}
+  twoButtons: {fileID: 365779035}
+  oneButton: {fileID: 1673279762}
   playWeckerAtmo:
     idInternal: 0
     valueGuidInternal: 
