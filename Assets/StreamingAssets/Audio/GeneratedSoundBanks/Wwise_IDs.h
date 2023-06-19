@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID STOP_ATMO_SCHOOLPUPILS = 1690344493U;
         static const AkUniqueID STOP_ATMO_WECKER_TICKING = 1506823617U;
         static const AkUniqueID STOP_ENDING_MUSIC01 = 2878211692U;
+        static const AkUniqueID STOP_SFX_WECKER_KLINGELN_LATE = 2363615527U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

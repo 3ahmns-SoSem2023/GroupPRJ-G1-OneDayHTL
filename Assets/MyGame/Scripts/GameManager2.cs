@@ -14,15 +14,8 @@ public class GameManager2 : MonoBehaviour
     public StatusEffectStorage efctStorage;
     public GameObject twoButtons, oneButton, storageObj;
 
-    /*[Header("Wwise Variablen")]
-    public AK.Wwise.Event playWeckerAtmo;
-    public AK.Wwise.Event stopWeckerAtmo;
-
-    public AK.Wwise.Event playStartAndEndingMusic;
-    public AK.Wwise.Event stopStartAndEndingMusic;
-
-    public AK.Wwise.Event playWeckerEarly;
-    public AK.Wwise.Event playWeckerLate;*/
+    [Header("Wwise Variablen")]
+    public GameManager forWwise; 
 
     private void Awake()
     {
@@ -129,8 +122,7 @@ public class GameManager2 : MonoBehaviour
         nxtState2 = GameState.WorkHard2;
 
         //Wwise
-        //playStartAndEndingMusic.Post(gameObject);
-        //playWeckerAtmo.Post(gameObject); 
+        
     }
 
     public void STSlackOff1()
@@ -151,8 +143,6 @@ public class GameManager2 : MonoBehaviour
             UpdateGameState(GameState.Ending2);
         }
         //Wwise
-        //playWeckerEarly.Post(gameObject);
-        //stopStartAndEndingMusic.Post(gameObject); 
     }
     //Update this
     public void STWorkHard2()
@@ -173,8 +163,6 @@ public class GameManager2 : MonoBehaviour
             UpdateGameState(GameState.Ending3);
         }
         //Wwise
-        //playWeckerLate.Post(gameObject);
-        //stopStartAndEndingMusic.Post(gameObject);
     }
 
     public void Ending2()
@@ -193,8 +181,7 @@ public class GameManager2 : MonoBehaviour
 
 
         //Wwise
-        //stopWeckerAtmo.Post(gameObject);
-        //playStartAndEndingMusic.Post(gameObject);
+        forWwise.playStartAndEndingMusic.Post(gameObject);
     }
 
     public void Ending3()
@@ -213,8 +200,7 @@ public class GameManager2 : MonoBehaviour
 
 
         //Wwise
-        //stopWeckerAtmo.Post(gameObject);
-        //playStartAndEndingMusic.Post(gameObject);
+        forWwise.playStartAndEndingMusic.Post(gameObject);
     }
 
     public void Ending11()
@@ -233,7 +219,6 @@ public class GameManager2 : MonoBehaviour
 
 
         //Wwise
-        //stopWeckerAtmo.Post(gameObject);
-        //playStartAndEndingMusic.Post(gameObject);
+        forWwise.playStartAndEndingMusic.Post(gameObject);
     }
 }

@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
 
     public AK.Wwise.Event playWeckerEarly;
     public AK.Wwise.Event playWeckerLate;
+    public AK.Wwise.Event stopWeckerLate;
 
     private void Awake()
     {
@@ -203,7 +204,10 @@ public class GameManager : MonoBehaviour
         {
             UpdateGameState(GameState.Chapter2);
         }
-        
+
+        //Wwise
+        //stopWeckerAtmo.Post(gameObject);
+        stopStartAndEndingMusic.Post(gameObject);
     }
 
     public void QuickPrep()
@@ -218,6 +222,9 @@ public class GameManager : MonoBehaviour
             UpdateGameState(GameState.Chapter3);
         }
 
+        //Wwise
+        //stopWeckerAtmo.Post(gameObject);
+        stopStartAndEndingMusic.Post(gameObject);
     }
 
     public void Chapter1()
@@ -238,6 +245,11 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
+
+        //Wwise
+        stopWeckerAtmo.Post(gameObject);
+        stopStartAndEndingMusic.Post(gameObject);
+        stopWeckerLate.Post(gameObject);
     }
 
     public void Chapter2()
@@ -258,6 +270,11 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene(2);
         }
+
+        //Wwise
+        stopWeckerAtmo.Post(gameObject);
+        stopStartAndEndingMusic.Post(gameObject);
+        stopWeckerLate.Post(gameObject);
     }
 
     public void Chapter3()
@@ -278,6 +295,11 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene(3);
         }
+
+        //Wwise
+        stopWeckerAtmo.Post(gameObject);
+        stopStartAndEndingMusic.Post(gameObject);
+        stopWeckerLate.Post(gameObject);
     }
 
     public void Chapter4()
@@ -298,6 +320,11 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene(4);
         }
+
+        //Wwise
+        stopWeckerAtmo.Post(gameObject);
+        stopStartAndEndingMusic.Post(gameObject);
+        stopWeckerLate.Post(gameObject);
     }
 
     public void Ending1()
@@ -318,5 +345,6 @@ public class GameManager : MonoBehaviour
         //Wwise
         stopWeckerAtmo.Post(gameObject);
         playStartAndEndingMusic.Post(gameObject);
+
     }
 }

@@ -386,6 +386,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c3f86e10fd2ad684089c2337bb289d41, type: 2}
+  stopWeckerLate:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 398afb15ed4b6994abaf07277e0e8e4b, type: 2}
 --- !u!4 &160395144
 Transform:
   m_ObjectHideFlags: 0

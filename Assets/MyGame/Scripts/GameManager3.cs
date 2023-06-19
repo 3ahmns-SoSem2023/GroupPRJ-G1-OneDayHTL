@@ -14,15 +14,10 @@ public class GameManager3 : MonoBehaviour
     public StatusEffectStorage efctStorage;
     public GameObject twoButtons, oneButton, storageObj;
 
-    /*[Header("Wwise Variablen")]
-    public AK.Wwise.Event playWeckerAtmo;
-    public AK.Wwise.Event stopWeckerAtmo;
 
-    public AK.Wwise.Event playStartAndEndingMusic;
-    public AK.Wwise.Event stopStartAndEndingMusic;
-
-    public AK.Wwise.Event playWeckerEarly;
-    public AK.Wwise.Event playWeckerLate;*/
+    [Header("Wwise Variablen")]
+    public GameManager forWwise; 
+    
 
     private void Awake()
     {
@@ -127,17 +122,18 @@ public class GameManager3 : MonoBehaviour
     public void STApologize1()
     {
         UpdateGameState(GameState.Ending4);
+
+
         //Wwise
-        //playWeckerEarly.Post(gameObject);
-        //stopStartAndEndingMusic.Post(gameObject); 
+        
     }
     //Update this
     public void STSneakIn2()
     {
         UpdateGameState(GameState.Ending5);
+
         //Wwise
-        //playWeckerLate.Post(gameObject);
-        //stopStartAndEndingMusic.Post(gameObject);
+
     }
 
     public void Ending4()
@@ -156,8 +152,7 @@ public class GameManager3 : MonoBehaviour
 
 
         //Wwise
-        //stopWeckerAtmo.Post(gameObject);
-        //playStartAndEndingMusic.Post(gameObject);
+        forWwise.playStartAndEndingMusic.Post(gameObject);
     }
 
     public void Ending5()
@@ -176,7 +171,6 @@ public class GameManager3 : MonoBehaviour
 
 
         //Wwise
-        //stopWeckerAtmo.Post(gameObject);
-        //playStartAndEndingMusic.Post(gameObject);
+        forWwise.playStartAndEndingMusic.Post(gameObject);
     }
 }

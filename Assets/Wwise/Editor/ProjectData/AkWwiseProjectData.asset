@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f33eede9dc16f0449299c272baa1892a
     GuidInternal: 
-    m_lastTime: -8585148509950533501
+    m_lastTime: -8585144194302091074
     List:
     - name: Atmos
       guid: a83a9d58176cd24da0e6e9dd0c46029a
@@ -387,7 +387,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 207ad1efba50c14caa661a591f037116
     GuidInternal: 
-    m_lastTime: -8585148509950603266
+    m_lastTime: -8585144195273530122
     List:
     - name: Play_atmo_cafeteria
       guid: 5ac1b9803fff8b4da8b1e77d06d24db0
@@ -641,6 +641,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 82f6373f7ae10040b836d3811f6e4de7
       Path: Events\Default Work Unit\Stop_ending_Music01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_sfx_wecker_klingeln_late
+      guid: 94b939dbbdcc9e459f25795a32d343fb
+      id: 2363615527
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Stop_sfx_wecker_klingeln_late
+        ObjectType: 3
+        guid: 94b939dbbdcc9e459f25795a32d343fb
+      Path: Events\Default Work Unit\Stop_sfx_wecker_klingeln_late
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
