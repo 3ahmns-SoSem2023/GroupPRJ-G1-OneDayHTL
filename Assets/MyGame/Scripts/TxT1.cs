@@ -7,11 +7,16 @@ public class TxT1 : MonoBehaviour
     public GameManager gameManager;
     public void TextStart()
     {
+        //What is happening
         gameManager.texts[0].SetText("First Scene");
+        //where are you
         gameManager.texts[1].SetText("In Bed");
         gameManager.texts[2].SetText(gameManager.efctStorage.FetchStatus());
+        //what do you need to do
         gameManager.texts[3].SetText("Choose");
+        //choice 1
         gameManager.texts[4].SetText("early");
+        //choice 2
         gameManager.texts[5].SetText("late");
     }
 
