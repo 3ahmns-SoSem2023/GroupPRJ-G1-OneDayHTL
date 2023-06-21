@@ -26,6 +26,11 @@ public class GameManager : MonoBehaviour
     public AK.Wwise.Event playWeckerLate;
     public AK.Wwise.Event stopWeckerLate;
 
+    public AK.Wwise.Event playInteractivMusic;
+    public AK.Wwise.Event stopInteractivMusic;
+
+    public AK.Wwise.Event playButtonClick; 
+
     private void Awake()
     {
         Instance = this;
@@ -106,6 +111,9 @@ public class GameManager : MonoBehaviour
     //Check wann und welcher Knopf gedrückt wurde
     public void BtnPressed(int btnNumber)
     {
+        //Wwise
+        playButtonClick.Post(gameObject); 
+
         if (btnNumber == 0)
         {
             UpdateGameState(nxtState1);
@@ -161,7 +169,10 @@ public class GameManager : MonoBehaviour
 
         //Wwise
         playWeckerEarly.Post(gameObject);
-        stopStartAndEndingMusic.Post(gameObject); 
+        stopStartAndEndingMusic.Post(gameObject);
+
+        AkSoundEngine.SetState("ArrangementStates", "Frame01"); 
+        playInteractivMusic.Post(gameObject);
     }
     //Update this
     public void STLate2()
@@ -179,6 +190,9 @@ public class GameManager : MonoBehaviour
         //Wwise
         playWeckerLate.Post(gameObject);
         stopStartAndEndingMusic.Post(gameObject);
+
+        AkSoundEngine.SetState("ArrangementStates", "Frame01"); 
+        playInteractivMusic.Post(gameObject);
     }
 
     public void PrepSlow()
@@ -195,6 +209,7 @@ public class GameManager : MonoBehaviour
         //Wwise
         //stopWeckerAtmo.Post(gameObject);
         stopStartAndEndingMusic.Post(gameObject);
+        AkSoundEngine.SetState("ArrangementStates", "Frame02");
     }
 
     public void QuickPrep()
@@ -212,6 +227,7 @@ public class GameManager : MonoBehaviour
         //Wwise
         //stopWeckerAtmo.Post(gameObject);
         stopStartAndEndingMusic.Post(gameObject);
+        AkSoundEngine.SetState("ArrangementStates", "Frame02");
     }
 
     public void Chapter1()
