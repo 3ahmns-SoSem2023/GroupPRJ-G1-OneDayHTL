@@ -67,7 +67,7 @@ ENDING 11 (Zucker Herzstillstand 5%)
 
 
 ENDING 2
-Du hast den Überraschungstest komplett verpasst, weil du die Zeit vergessen hast, während du mit deine Kollegas in der Cafeteria gegessen hast
+Du hast den Überraschungstest komplett verpasst, weil du die Zeit vergessen hast, während du mit deine Kollegas in der Cafeteria gegessen hast.
 
 ENDING 3
 Du hast den ganzen Tag hart gearbeitet und den Überraschungstest mit Leichtigkeit bestanden.
@@ -104,16 +104,99 @@ Du beckomst ein Stück Kreide ab und wirst als fehlend eingetragen.
 
 
 
+CHAPTER C
+
+Du bist in der Schule angekommen... Hast aber meeegaaa Hunger!
+
+...
+
+*knurr*
+
+
+- Option 1: Okay Common! Das zieh ich jetzt durch! Ich ess daheim etwas.
+
+Ending 6: Du hast dich zu hart gepusht, hast aber dadurch jetzt Kopf- und Bauchweh bekommen.
+
+Died as a soldier!
+
+
+
+
+- Option 2: Okay: jetzt noch 1 1/2 h duchhalten, dann in der Big Break beim Buffet Pommes und Energy holen.
+
+Ending 7: Gratuliere! Du hast was gegessen und gelernt heute. Zwar nicht alles, und unbedingt gesund, aber du hast es durch den Tag gschafft.
 
 
 
 
 
+CHAPTER D
+
+Du bist zu spät und hast absolut kranken Hunger. Schlimmer gehts nicht.
+
+Willst du dir was schnelles zum Naschen holen?
 
 
+Optio A (Direkt in Klasse)
+- Nein, ich geh gleich in die Klasse und werde mitmachen.
+
+ENDING 8: Du hast versucht, den Stoff von den ersten 20 Minuten nachzuholen, aber du kannst dich echt nicht Konzentrieren. Basicly bist du den ganzen Tag scheiße drauf, depresiv und am Daydreamen.
 
 
+Option B(Snack Kaufen)
+-Ja, kann man schon machen, jetzt is eh schon Wurst. Dann ist mindestens der Hunger weg.
+
+ENDING 10
+
+Als du in die zweite Sunde gehen wolltest hat dich der Lehrer aus der erste Stunde gesehen und zusammengeschissen.
+
+%"$/(§#
+
+Jetzt bist du 5 Minuten zu spät in der Mathe Stunde und die Lehrerin schaut dich schon sehr Abgefuckt an.
+
+...
+
+Du bekommst eine Panikattacke, fällst in ein Koma, kommst ins Krankenhaus, wächst dort auf, gehst wieder in die Schule, bleibst desswegen sitzen, entwickelst Depression, brichts die Schule ab, wirst Kriminell duch Ladendiebstähle, probierst Drogen aus, wirst abhängig, machst weitere Diebstähle, trittst der Mafia bei, bei der du die Drogenschulden hast, schlagst dich gut, wirst zum Vize-Boss, tötest den Boss, wirst zum Boss, wirst von der Interpol gesucht, fliehst nach Thailand, operierst dort dein Geschlecht um, baust eine kleine Marihuana Planatage, wirst von der Polizei gejagt (immernoch), fliehtst nach Österreich zurück, machst dir eine großen Kopf drum, unerkannt zu bleiben, gehst einkaufen, wirst von rechts von einer Person angetippt, atmest auf, drehst dich nach Rechts, bereitest dich auf dei Russischde GESTAPO vor, rechts ist niemand, drehst dich nach links um 90 Grad, drehst dich um 270 Grad nach Rechts.
+
+...
 
 
+Vor dir ist wieder nieman.
 
 
+...
+
+Noch dabei?
+
+-Nein man hör mal auf mit Text
+(Ok
+
+...
+
+Du stirbst weil du dumm bist. Trollololo)
+
+
+-Ja 
+
+Gut
+
+...
+
+Du führst deinen Einkauf fort, gehst zu kassa, gehst aus dem Geschäft, wirst draußen von einem Sandler angesprochen, er fragt dich um einen Euro, du sagst nichts, er zieht AK-48 und entpuppt sich als Terrorist, welcher auf den Richtigen Momment gewartet hat, du erschreckst dich, du atmest ein, du atmest aus, er erschießt dich, du fällst in slow motion zu Boden, er Tea-Bagged dich und erschießt andere leute
+
+...
+
+Du findest dich wieder im Klassenraum, nachdem du für 2 Sekunden Tagträumen diese Scheiße erlebt hast.
+
+...
+
+Die Lehrerin fragt dich ob alles Okay ist
+
+...
+
+Du sagst ja
+
+... 
+
+Du tust den Ganzen Tag lang normal mit und hast nach 2 Minuten den Ganzen shit schon wieder vergessen.
+GG! Das war das Beste Ending was dir geschen konnte! (also eigentlich ist es nur das collste weil ich [Janes] der writer sehr viel random Text auf autopilot geschrieben hat.
