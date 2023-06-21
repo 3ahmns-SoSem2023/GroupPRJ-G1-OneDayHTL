@@ -47,9 +47,34 @@ namespace AK
                 static const AkUniqueID FRAME03 = 300799503U;
                 static const AkUniqueID FRAME04 = 300799496U;
                 static const AkUniqueID FRAME05 = 300799497U;
+                static const AkUniqueID FRAME06 = 300799498U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace ARRANGEMENTSTATES
+
+        namespace ENERGISED
+        {
+            static const AkUniqueID GROUP = 3372658147U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ENERGISED = 3372658147U;
+                static const AkUniqueID NOENERGISED = 3961220184U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace ENERGISED
+
+        namespace HUNGRYNESS
+        {
+            static const AkUniqueID GROUP = 713042883U;
+
+            namespace STATE
+            {
+                static const AkUniqueID HUNGRY = 182421254U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID NOTHUNGRY = 1159864123U;
+            } // namespace STATE
+        } // namespace HUNGRYNESS
 
         namespace STRESSLEVEL
         {

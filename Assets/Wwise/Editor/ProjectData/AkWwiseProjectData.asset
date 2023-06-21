@@ -891,7 +891,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 27ba93565990714a96d24f71511f102c
     GuidInternal: 
-    m_lastTime: -8585142525380557801
+    m_lastTime: -8585142485044256599
     List:
     - name: ArrangementStates
       guid: 00e6e2b60b2c3840a6fcb6f174d3e10a
@@ -988,6 +988,22 @@ MonoBehaviour:
         - ElementName: Frame05
           ObjectType: 8
           guid: 7b302075a926bb42bd1d68546cf7ec80
+      - name: Frame06
+        guid: 340c2945d48fe5449cadd6e9430db7f8
+        id: 300799498
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: ArrangementStates
+          ObjectType: 9
+          guid: 00e6e2b60b2c3840a6fcb6f174d3e10a
+        - ElementName: Frame06
+          ObjectType: 8
+          guid: 340c2945d48fe5449cadd6e9430db7f8
       - name: None
         guid: b76fc36f2435cc47a9ccc59a69044436
         id: 748895195
@@ -1004,6 +1020,138 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: b76fc36f2435cc47a9ccc59a69044436
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Energised
+      guid: 49396775deca544e960903d18c58a225
+      id: 3372658147
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27ba93565990714a96d24f71511f102c
+      - ElementName: Energised
+        ObjectType: 9
+        guid: 49396775deca544e960903d18c58a225
+      Path: States\Default Work Unit\Energised
+      values:
+      - name: Energised
+        guid: f5ec11cb62ed4f46bd335b08c02d9327
+        id: 3372658147
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: Energised
+          ObjectType: 9
+          guid: 49396775deca544e960903d18c58a225
+        - ElementName: Energised
+          ObjectType: 8
+          guid: f5ec11cb62ed4f46bd335b08c02d9327
+      - name: NoEnergised
+        guid: 4ff262fd437637438302cdbb7b700716
+        id: 3961220184
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: Energised
+          ObjectType: 9
+          guid: 49396775deca544e960903d18c58a225
+        - ElementName: NoEnergised
+          ObjectType: 8
+          guid: 4ff262fd437637438302cdbb7b700716
+      - name: None
+        guid: 330d18265ad1dc41ac150e6a342bc224
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: Energised
+          ObjectType: 9
+          guid: 49396775deca544e960903d18c58a225
+        - ElementName: None
+          ObjectType: 8
+          guid: 330d18265ad1dc41ac150e6a342bc224
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Hungryness
+      guid: 68243971d7e8c043af3b6e1aa9a89b7e
+      id: 713042883
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27ba93565990714a96d24f71511f102c
+      - ElementName: Hungryness
+        ObjectType: 9
+        guid: 68243971d7e8c043af3b6e1aa9a89b7e
+      Path: States\Default Work Unit\Hungryness
+      values:
+      - name: Hungry
+        guid: df77534859b8884f83c05b57869630d4
+        id: 182421254
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: Hungryness
+          ObjectType: 9
+          guid: 68243971d7e8c043af3b6e1aa9a89b7e
+        - ElementName: Hungry
+          ObjectType: 8
+          guid: df77534859b8884f83c05b57869630d4
+      - name: None
+        guid: 90a6b5c63c173c418ed7057e5a9756ca
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: Hungryness
+          ObjectType: 9
+          guid: 68243971d7e8c043af3b6e1aa9a89b7e
+        - ElementName: None
+          ObjectType: 8
+          guid: 90a6b5c63c173c418ed7057e5a9756ca
+      - name: NotHungry
+        guid: 166105e2b6bd7d4da90c1bb6119308c1
+        id: 1159864123
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: Hungryness
+          ObjectType: 9
+          guid: 68243971d7e8c043af3b6e1aa9a89b7e
+        - ElementName: NotHungry
+          ObjectType: 8
+          guid: 166105e2b6bd7d4da90c1bb6119308c1
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []

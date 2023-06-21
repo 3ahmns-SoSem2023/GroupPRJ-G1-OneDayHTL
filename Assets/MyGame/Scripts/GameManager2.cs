@@ -42,6 +42,8 @@ public class GameManager2 : MonoBehaviour
         efctStorage = storageObj.GetComponent<StatusEffectStorage>();
         //Setzt die Start Szene
         UpdateGameState(0);
+
+        
     }
 
     //Updatet den GameState zum in der Variable spezifizierten
@@ -118,7 +120,9 @@ public class GameManager2 : MonoBehaviour
         nxtState2 = GameState.WorkHard2;
 
         //Wwise
-        
+        AkSoundEngine.SetState("ArrangementStates", "Frame04");
+        forWwise.stopWeckerAtmo.Post(gameObject); 
+        forWwise.playSchoolPupilsAtmo.Post(gameObject); 
     }
 
     public void STSlackOff1()
@@ -178,6 +182,7 @@ public class GameManager2 : MonoBehaviour
 
         //Wwise
         forWwise.playStartAndEndingMusic.Post(gameObject);
+        forWwise.stopInteractivMusic.Post(gameObject);
     }
 
     public void Ending3()
@@ -197,6 +202,7 @@ public class GameManager2 : MonoBehaviour
 
         //Wwise
         forWwise.playStartAndEndingMusic.Post(gameObject);
+        forWwise.stopInteractivMusic.Post(gameObject);
     }
 
     public void Ending11()
@@ -216,5 +222,6 @@ public class GameManager2 : MonoBehaviour
 
         //Wwise
         forWwise.playStartAndEndingMusic.Post(gameObject);
+        forWwise.stopInteractivMusic.Post(gameObject);
     }
 }
