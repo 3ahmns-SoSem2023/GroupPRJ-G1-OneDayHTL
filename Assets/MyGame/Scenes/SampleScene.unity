@@ -363,7 +363,7 @@ MonoBehaviour:
   efctStorage: {fileID: 627451113}
   twoButtons: {fileID: 365779035}
   oneButton: {fileID: 1673279762}
-  textScript: {fileID: 0}
+  textScript: {fileID: 160395145}
   playWeckerAtmo:
     idInternal: 0
     valueGuidInternal: 

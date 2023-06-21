@@ -16,7 +16,21 @@ public class GameManager4 : MonoBehaviour
     public TxT4 textScript;
 
     [Header("Wwise Variablen")]
-    public GameManager forWwise; 
+    public AK.Wwise.Event playWeckerAtmo;
+    public AK.Wwise.Event stopWeckerAtmo;
+    public AK.Wwise.Event playSchoolPupilsAtmo;
+
+    public AK.Wwise.Event playStartAndEndingMusic;
+    public AK.Wwise.Event stopStartAndEndingMusic;
+
+    public AK.Wwise.Event playWeckerEarly;
+    public AK.Wwise.Event playWeckerLate;
+    public AK.Wwise.Event stopWeckerLate;
+
+    public AK.Wwise.Event playInteractivMusic;
+    public AK.Wwise.Event stopInteractivMusic;
+
+    public AK.Wwise.Event playButtonClick;
 
 
     private void Awake()
@@ -111,8 +125,8 @@ public class GameManager4 : MonoBehaviour
 
         //Wwise
         AkSoundEngine.SetState("ArrangementStates", "Frame04");
-        forWwise.stopWeckerAtmo.Post(gameObject);
-        forWwise.playSchoolPupilsAtmo.Post(gameObject);
+        stopWeckerAtmo.Post(gameObject);
+        playSchoolPupilsAtmo.Post(gameObject);
     }
 
     public void STPush1()
@@ -141,12 +155,12 @@ public class GameManager4 : MonoBehaviour
 
         texts[7].gameObject.SetActive(true);
         textScript.TextEnding6();
-        images[0].SetImg(sprites[2]);
+        images[0].SetImg(sprites[1]);
 
 
         //Wwise
-        forWwise.playStartAndEndingMusic.Post(gameObject);
-        forWwise.stopInteractivMusic.Post(gameObject);
+        playStartAndEndingMusic.Post(gameObject);
+        stopInteractivMusic.Post(gameObject);
     }
 
     public void Ending7()
@@ -165,7 +179,7 @@ public class GameManager4 : MonoBehaviour
 
 
         //Wwise
-        forWwise.playStartAndEndingMusic.Post(gameObject);
-        forWwise.stopInteractivMusic.Post(gameObject);
+        playStartAndEndingMusic.Post(gameObject);
+        stopInteractivMusic.Post(gameObject);
     }
 }

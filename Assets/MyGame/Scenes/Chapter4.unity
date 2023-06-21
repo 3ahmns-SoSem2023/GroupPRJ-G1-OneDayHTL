@@ -1046,7 +1046,50 @@ MonoBehaviour:
   oneButton: {fileID: 666538093}
   storageObj: {fileID: 0}
   textScript: {fileID: 487820227}
-  forWwise: {fileID: 0}
+  playWeckerAtmo:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 37b3775659fbdf24cb77e9e1a8531139, type: 2}
+  stopWeckerAtmo:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 628d09a4da4fabd43b933fa31e1fd1c0, type: 2}
+  playSchoolPupilsAtmo:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b312c121592b84947a8fb371d7764d6d, type: 2}
+  playStartAndEndingMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ccbb5a864b3100c4da6de49dd5711b90, type: 2}
+  stopStartAndEndingMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 324926be9860dad48bdd7f8a8c6388e9, type: 2}
+  playWeckerEarly:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1f92fb51593022c4ebd6d0d4ca0cf249, type: 2}
+  playWeckerLate:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c3f86e10fd2ad684089c2337bb289d41, type: 2}
+  stopWeckerLate:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 398afb15ed4b6994abaf07277e0e8e4b, type: 2}
+  playInteractivMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5fef8c049f7e2154dbad8637b61c803a, type: 2}
+  stopInteractivMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 37cad25b786efa54588ec599e2b883e4, type: 2}
+  playButtonClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6c4c425d971f61a4eae5c71aeab37c5e, type: 2}
 --- !u!114 &487820227
 MonoBehaviour:
   m_ObjectHideFlags: 0
