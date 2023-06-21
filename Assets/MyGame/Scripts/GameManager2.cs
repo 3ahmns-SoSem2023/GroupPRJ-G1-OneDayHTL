@@ -16,7 +16,21 @@ public class GameManager2 : MonoBehaviour
     public TxT2 textScript;
 
     [Header("Wwise Variablen")]
-    public GameManager forWwise; 
+    public AK.Wwise.Event playWeckerAtmo;
+    public AK.Wwise.Event stopWeckerAtmo;
+    public AK.Wwise.Event playSchoolPupilsAtmo;
+
+    public AK.Wwise.Event playStartAndEndingMusic;
+    public AK.Wwise.Event stopStartAndEndingMusic;
+
+    public AK.Wwise.Event playWeckerEarly;
+    public AK.Wwise.Event playWeckerLate;
+    public AK.Wwise.Event stopWeckerLate;
+
+    public AK.Wwise.Event playInteractivMusic;
+    public AK.Wwise.Event stopInteractivMusic;
+
+    public AK.Wwise.Event playButtonClick;
 
     private void Awake()
     {
@@ -121,8 +135,8 @@ public class GameManager2 : MonoBehaviour
 
         //Wwise
         AkSoundEngine.SetState("ArrangementStates", "Frame04");
-        forWwise.stopWeckerAtmo.Post(gameObject); 
-        forWwise.playSchoolPupilsAtmo.Post(gameObject); 
+        stopWeckerAtmo.Post(gameObject); 
+        playSchoolPupilsAtmo.Post(gameObject); 
     }
 
     public void STSlackOff1()
@@ -181,8 +195,8 @@ public class GameManager2 : MonoBehaviour
 
 
         //Wwise
-        forWwise.playStartAndEndingMusic.Post(gameObject);
-        forWwise.stopInteractivMusic.Post(gameObject);
+        playStartAndEndingMusic.Post(gameObject);
+        stopInteractivMusic.Post(gameObject);
     }
 
     public void Ending3()
@@ -201,8 +215,8 @@ public class GameManager2 : MonoBehaviour
 
 
         //Wwise
-        forWwise.playStartAndEndingMusic.Post(gameObject);
-        forWwise.stopInteractivMusic.Post(gameObject);
+        playStartAndEndingMusic.Post(gameObject);
+        stopInteractivMusic.Post(gameObject);
     }
 
     public void Ending11()
@@ -221,7 +235,7 @@ public class GameManager2 : MonoBehaviour
 
 
         //Wwise
-        forWwise.playStartAndEndingMusic.Post(gameObject);
-        forWwise.stopInteractivMusic.Post(gameObject);
+        playStartAndEndingMusic.Post(gameObject);
+        stopInteractivMusic.Post(gameObject);
     }
 }
