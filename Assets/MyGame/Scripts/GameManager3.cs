@@ -13,6 +13,7 @@ public class GameManager3 : MonoBehaviour
     public ChangeImg[] images;
     public StatusEffectStorage efctStorage;
     public GameObject twoButtons, oneButton, storageObj;
+    public TxT3 textScript;
 
 
     [Header("Wwise Variablen")]
@@ -102,12 +103,7 @@ public class GameManager3 : MonoBehaviour
     {
         //no status effects
 
-        texts[0].SetText("First Scene");
-        texts[1].SetText("In School");
-        texts[2].SetText(efctStorage.FetchStatus());
-        texts[3].SetText("Choose");
-        texts[4].SetText("Apologize");
-        texts[5].SetText("SneakIn");
+        textScript.TextStart();
 
         images[0].SetImg(sprites[0]);
 
@@ -147,7 +143,7 @@ public class GameManager3 : MonoBehaviour
         }
 
         texts[7].gameObject.SetActive(true);
-        texts[7].SetText("Ending4");
+        textScript.TextEnding4();
         images[0].SetImg(sprites[2]);
 
 
@@ -166,7 +162,7 @@ public class GameManager3 : MonoBehaviour
         }
 
         texts[7].gameObject.SetActive(true);
-        texts[7].SetText("Ending5");
+        textScript.TextEnding5();
         images[0].SetImg(sprites[2]);
 
 

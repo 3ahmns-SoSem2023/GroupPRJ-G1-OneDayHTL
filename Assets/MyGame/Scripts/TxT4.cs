@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TxT4 : MonoBehaviour
 {
-    public GameManager gameManager;
+    public GameManager4 gameManager;
     public void TextStart()
     {
         gameManager.texts[0].SetText("First Scene");

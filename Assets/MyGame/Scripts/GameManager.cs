@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public ChangeImg[] images;
     public StatusEffectStorage efctStorage;
     public GameObject twoButtons, oneButton;
+    public TxT1 textScript;
 
     [Header("Wwise Variablen")]
     public AK.Wwise.Event playWeckerAtmo;
@@ -135,12 +136,7 @@ public class GameManager : MonoBehaviour
     {
         //no status effects
 
-        texts[0].SetText("First Scene");
-        texts[1].SetText("In Bed");
-        texts[2].SetText(efctStorage.FetchStatus());
-        texts[3].SetText("Choose");
-        texts[4].SetText("early");
-        texts[5].SetText("late");
+        textScript.TextStart();
 
         images[0].SetImg(sprites[0]);
 
@@ -156,12 +152,7 @@ public class GameManager : MonoBehaviour
     {
         //effects are done earlier
 
-        texts[0].SetText("Second Scene");
-        texts[1].SetText("Home");
-        texts[2].SetText(efctStorage.FetchStatus());
-        texts[3].SetText("Choose");
-        texts[4].SetText("quick");
-        texts[5].SetText("slow");
+        textScript.TextEarly1();
 
         images[0].SetImg(sprites[1]);
 
@@ -179,11 +170,7 @@ public class GameManager : MonoBehaviour
 
         OneButton();
 
-        texts[0].SetText("Third Scene");
-        texts[1].SetText("Home");
-        texts[2].SetText(efctStorage.FetchStatus());
-        texts[3].SetText("Choose");
-        texts[6].SetText("quick");
+        textScript.TextLate2();
 
         images[0].SetImg(sprites[1]);
 
@@ -338,7 +325,7 @@ public class GameManager : MonoBehaviour
         }
 
         texts[7].gameObject.SetActive(true);
-        texts[7].SetText("Game is over");
+        textScript.TextEnding1();
         images[0].SetImg(sprites[2]);
 
 

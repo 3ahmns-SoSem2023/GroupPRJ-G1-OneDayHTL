@@ -13,6 +13,7 @@ public class GameManager5 : MonoBehaviour
     public ChangeImg[] images;
     public StatusEffectStorage efctStorage;
     public GameObject twoButtons, oneButton, storageObj;
+    public TxT5 textScript;
 
     [Header("Wwise Variablen")]
     public GameManager forWwise; 
@@ -112,12 +113,7 @@ public class GameManager5 : MonoBehaviour
     {
         //no status effects
 
-        texts[0].SetText("First Scene");
-        texts[1].SetText("In School");
-        texts[2].SetText(efctStorage.FetchStatus());
-        texts[3].SetText("Choose");
-        texts[4].SetText("Skip");
-        texts[5].SetText("Stay");
+        textScript.TextStart();
 
         images[0].SetImg(sprites[0]);
 
@@ -130,12 +126,7 @@ public class GameManager5 : MonoBehaviour
 
     public void STSkip1()
     {
-        texts[0].SetText("Second Scene");
-        texts[1].SetText("In School");
-        texts[2].SetText(efctStorage.FetchStatus());
-        texts[3].SetText("Choose");
-        texts[4].SetText("Dodge");
-        texts[5].SetText("Ignore");
+        textScript.TextSkip1();
 
         images[0].SetImg(sprites[1]);
 
@@ -177,7 +168,7 @@ public class GameManager5 : MonoBehaviour
         }
 
         texts[7].gameObject.SetActive(true);
-        texts[7].SetText("Ending8");
+        textScript.TextEnding8();
         images[0].SetImg(sprites[2]);
 
 
@@ -196,7 +187,7 @@ public class GameManager5 : MonoBehaviour
         }
 
         texts[7].gameObject.SetActive(true);
-        texts[7].SetText("Ending9");
+        textScript.TextEnding9();
         images[0].SetImg(sprites[2]);
 
 
@@ -215,7 +206,7 @@ public class GameManager5 : MonoBehaviour
         }
 
         texts[7].gameObject.SetActive(true);
-        texts[7].SetText("Ending10");
+        textScript.TextEnding10();
         images[0].SetImg(sprites[2]);
 
 

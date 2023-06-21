@@ -320,6 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 160395144}
   - component: {fileID: 160395143}
+  - component: {fileID: 160395145}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -362,6 +363,7 @@ MonoBehaviour:
   efctStorage: {fileID: 627451113}
   twoButtons: {fileID: 365779035}
   oneButton: {fileID: 1673279762}
+  textScript: {fileID: 160395145}
   playWeckerAtmo:
     idInternal: 0
     valueGuidInternal: 
@@ -404,6 +406,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &160395145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160395142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3976ed035c89e3c499aeae2904c1cf22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 160395143}
 --- !u!1 &274225678
 GameObject:
   m_ObjectHideFlags: 0
