@@ -159,8 +159,6 @@ public class GameManager : MonoBehaviour
         playStartAndEndingMusic.Post(gameObject);
         playWeckerAtmo.Post(gameObject);
         AkSoundEngine.SetState("ArrangementStates", "Frame01");
-        
-
     }
 
     public void STEarly1()

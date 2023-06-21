@@ -1,0 +1,51 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	680904693	ArrangementStates			\Default Work Unit\ArrangementStates	
+	713042883	Hungryness			\Default Work Unit\Hungryness	
+	862750320	Tiredness			\Default Work Unit\Tiredness	
+	2715298845	StressLevel			\Default Work Unit\StressLevel	
+	3372658147	Energised			\Default Work Unit\Energised	
+
+State	ID	Name	State Group			Notes
+	300799496	Frame04	ArrangementStates			
+	300799497	Frame05	ArrangementStates			
+	300799498	Frame06	ArrangementStates			
+	300799501	Frame01	ArrangementStates			
+	300799502	Frame02	ArrangementStates			
+	300799503	Frame03	ArrangementStates			
+	748895195	None	ArrangementStates			
+	182421254	Hungry	Hungryness			
+	748895195	None	Hungryness			
+	1159864123	NotHungry	Hungryness			
+	748895195	None	Tiredness			
+	1393142286	NoTired	Tiredness			
+	3386657621	Tired	Tiredness			
+	748895195	None	StressLevel			
+	919544048	NoStress	StressLevel			
+	3840192365	Stress	StressLevel			
+	748895195	None	Energised			
+	3372658147	Energised	Energised			
+	3961220184	NoEnergised	Energised			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

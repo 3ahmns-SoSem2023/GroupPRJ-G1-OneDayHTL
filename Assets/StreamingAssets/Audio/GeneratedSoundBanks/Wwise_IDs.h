@@ -14,7 +14,6 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_ATMO_CAFETERIA = 266329026U;
-        static const AkUniqueID PLAY_ATMO_COFFEESHOP = 1912263280U;
         static const AkUniqueID PLAY_ATMO_SCHOOLPUPILS = 4214973335U;
         static const AkUniqueID PLAY_ATMO_WECKER_TICKING = 3773372227U;
         static const AkUniqueID PLAY_ENDING_MUSIC01 = 1943873006U;
@@ -26,7 +25,6 @@ namespace AK
         static const AkUniqueID PLAY_SFX_WECKER_KLINGELN_EARLY = 2380211326U;
         static const AkUniqueID PLAY_SFX_WECKER_KLINGELN_LATE = 1449785589U;
         static const AkUniqueID STOP_ATMO_CAFETERIA = 916655772U;
-        static const AkUniqueID STOP_ATMO_COFFEESHOP = 3082058498U;
         static const AkUniqueID STOP_ATMO_SCHOOLPUPILS = 1690344493U;
         static const AkUniqueID STOP_ATMO_WECKER_TICKING = 1506823617U;
         static const AkUniqueID STOP_ENDING_MUSIC01 = 2878211692U;

@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	571444690	Stop_MusicContainer			\Default Work Unit\Stop_MusicContainer	
+	1943873006	Play_ending_Music01			\Default Work Unit\Play_ending_Music01	
+	2878211692	Stop_ending_Music01			\Default Work Unit\Stop_ending_Music01	
+	2907544272	Play_MusicContainer			\Default Work Unit\Play_MusicContainer	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	680904693	ArrangementStates			\Default Work Unit\ArrangementStates	
+
+State	ID	Name	State Group			Notes
+	300799496	Frame04	ArrangementStates			
+	300799497	Frame05	ArrangementStates			
+	300799498	Frame06	ArrangementStates			
+	300799501	Frame01	ArrangementStates			
+	300799502	Frame02	ArrangementStates			
+	300799503	Frame03	ArrangementStates			
+	748895195	None	ArrangementStates			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	0	Shaker	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame05_Drums_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame02-Container\Frame02\Shaker		1702356
+	76555587	Arp01	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame01_Arp_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame02-Container\Frame02\Arp01		1702356
+	93677020	Harmony01	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame01_Harmony_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame01-Container\Frame01\Harmony01		1702356
+	204935102	Drums01	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame04_Drums_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame01-Container\Frame01\Drums01		1702356
+	221318138	Harmony01	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame05_Melody-Bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame01-Container\Frame01\Harmony01		1702356
+	258732415	Melody-Bass01	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame06_Melody-Bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame02-Container\Frame02\Melody-Bass01		1702356
+	507656867	ending_Music01	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\Forbit´s_8bitVersion_6848C375.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ending-Music\ending_Music01		34027936
+	604049455	Drums01	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame05_Drums_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame01-Container\Frame01\Drums01		1702356
+	623248831	DepressionSim_Frame06_Bass	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame06_Bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame06-Container\Frame06\DepressionSim_Frame06_Bass		1702356
+	761615625	Melody-Bass01	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame01_Melody-Bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame01-Container\Frame01\Melody-Bass01		1702356
+	902460813	Drums01	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame02_Drums_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame01-Container\Frame01\Drums01		1702356
+	965622213	Bass	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame01_Bass2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame04-Container\Frame04\Bass		1702356
+	983820762	Bass	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\DepressionSim_Frame01_Bass3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\MusicContainer\Frame05-Container\Frame05\Bass		1702356
+

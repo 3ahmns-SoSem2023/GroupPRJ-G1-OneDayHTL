@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5693BA27-9059-4A71-96D2-4F71511F102C}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{5693BA27-9059-4A71-96D2-4F71511F102C}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="StressLevel" ID="{9D01A449-D440-4FEC-89AB-F5DB175FEEC3}">
+					<ChildrenList>
+						<State Name="None" ID="{A1F600D5-950E-4902-A812-ABF3898F2E3A}"/>
+						<State Name="Stress" ID="{FA0EE77C-A25C-4DD4-B959-D4884D6A412E}"/>
+						<State Name="NoStress" ID="{1F57F886-1628-4F07-8CC0-22CED4BD2C05}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Tiredness" ID="{2EF0BA4B-58EE-45E7-9926-B1871B3A6C67}">
+					<ChildrenList>
+						<State Name="None" ID="{3C7668AE-A891-49FC-96BA-433333DCFB29}"/>
+						<State Name="Tired" ID="{A8FC0705-88E7-4543-8607-74F8F3C17A42}"/>
+						<State Name="NoTired" ID="{36F65EFD-70DF-4012-865B-085E386002D0}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="ArrangementStates" ID="{B6E2E600-2C0B-4038-A6FC-B6F174D3E10A}">
+					<ChildrenList>
+						<State Name="None" ID="{6FC36FB7-3524-47CC-A9CC-C59A69044436}"/>
+						<State Name="Frame01" ID="{97A48331-3278-4D8B-B278-4AD318857369}"/>
+						<State Name="Frame02" ID="{1876659C-9E56-4639-8962-8F680B336BE1}"/>
+						<State Name="Frame03" ID="{440FC631-D4FD-4987-90A7-49647FB6B7AE}"/>
+						<State Name="Frame04" ID="{43F40B19-01D3-4D03-A173-DEB57E242941}"/>
+						<State Name="Frame05" ID="{7520307B-26A9-42BB-BD1D-68546CF7EC80}"/>
+						<State Name="Frame06" ID="{45290C34-8FD4-44E5-9CAD-D6E9430DB7F8}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Hungryness" ID="{71392468-E8D7-43C0-AF3B-6E1AA9A89B7E}">
+					<ChildrenList>
+						<State Name="None" ID="{C6B5A690-173C-413C-8ED7-057E5A9756CA}"/>
+						<State Name="Hungry" ID="{485377DF-B859-4F88-83C0-5B57869630D4}"/>
+						<State Name="NotHungry" ID="{E2056116-BDB6-4D7D-A90C-1BB6119308C1}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Energised" ID="{75673949-CADE-4E54-9609-03D18C58A225}">
+					<ChildrenList>
+						<State Name="None" ID="{26180D33-D15A-41DC-AC15-0E6A342BC224}"/>
+						<State Name="Energised" ID="{CB11ECF5-ED62-464F-BD33-5B08C02D9327}"/>
+						<State Name="NoEnergised" ID="{FD62F24F-7643-4337-8302-CDBB7B700716}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -136,6 +136,7 @@ public class GameManager5 : MonoBehaviour
 
         //Wwise
         AkSoundEngine.SetState("ArrangementStates", "Frame04");
+        
     }
 
     public void STSkip1()
@@ -191,6 +192,7 @@ public class GameManager5 : MonoBehaviour
         //Wwise
         playStartAndEndingMusic.Post(gameObject);
         stopInteractivMusic.Post(gameObject);
+        AkSoundEngine.SetState("ArrangementStates", "None");
     }
 
     public void Ending9()
@@ -211,6 +213,7 @@ public class GameManager5 : MonoBehaviour
         //Wwise
         playStartAndEndingMusic.Post(gameObject);
         stopInteractivMusic.Post(gameObject);
+        AkSoundEngine.SetState("ArrangementStates", "None");
     }
 
     public void Ending10()
@@ -231,5 +234,6 @@ public class GameManager5 : MonoBehaviour
         //Wwise
         playStartAndEndingMusic.Post(gameObject);
         stopInteractivMusic.Post(gameObject);
+        AkSoundEngine.SetState("ArrangementStates", "None");
     }
 }

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E9ED3EF3-16DC-44F0-9299-C272BAA1892A}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{E9ED3EF3-16DC-44F0-9299-C272BAA1892A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{341DF049-B3ED-44A5-B3F3-ABBC8AB05ACF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_sfx_energyCanOpen" ID="{9C24139F-DDA5-42CB-B507-0A3B287A98A1}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sfx_button" ID="{8ADB019B-8059-43BF-9C05-15EA38E4AE33}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sfx_throwUp" ID="{1D7E4AEA-B05C-43BF-9F5D-67AAC4BB5628}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sfx_bus_missed" ID="{28F9B184-F510-452C-9180-B8E33DFD4B22}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_sfx_wecker_klingeln_late" ID="{DB39B994-CCBD-459E-9F25-795A32D343FB}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sfx_wecker_klingeln_late" ID="{C0EC4E0F-3CFE-4F06-9D49-3BC874969233}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_sfx_wecker_klingeln_early" ID="{488AF07B-FE7B-4F29-BC19-5DCE1A5DF960}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Atmos" ID="{589D3AA8-6C17-4DD2-A0E6-E9DD0C46029A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_atmo_schoolPupils" ID="{0204C1A6-3656-40E5-9E7C-1FE6DDD2E371}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_atmo_wecker_ticking" ID="{181C8E34-2405-425E-8311-B5204C876761}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_atmo_coffeeshop" ID="{FB878E36-36B7-42AB-81A2-3D75B7F03160}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_atmo_schoolPupils" ID="{72E5FE4A-85C4-446F-B945-46BA8E48DC39}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_atmo_cafeteria" ID="{D4EF6163-B8EB-4476-B5AF-49B145CE8CE4}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_atmo_cafeteria" ID="{80B9C15A-FF3F-4D8B-A8B1-E77D06D24DB0}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_atmo_wecker_ticking" ID="{DC30AB1E-DE2B-4DCF-88A0-AD0F60842E64}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_atmo_coffeeshop" ID="{F32358A0-7C66-4DD7-9424-2187ACAB4459}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{C20A36F9-3302-4209-B2D4-365942367FAD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_ending_Music01" ID="{3F37F682-E17A-4000-B836-D3811F6E4DE7}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_MusicContainer" ID="{509C1864-A3AD-42D3-86F6-757B975CC302}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MusicContainer" ID="{605AF281-477C-449B-86E7-5E4836D28793}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ending_Music01" ID="{F24E82BF-AD8F-4877-8BB5-B593408C78E3}" WorkUnitID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

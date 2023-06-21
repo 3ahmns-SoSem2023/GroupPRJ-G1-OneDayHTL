@@ -161,6 +161,7 @@ public class GameManager4 : MonoBehaviour
         //Wwise
         playStartAndEndingMusic.Post(gameObject);
         stopInteractivMusic.Post(gameObject);
+        AkSoundEngine.SetState("ArrangementStates", "None");
     }
 
     public void Ending7()
@@ -181,5 +182,6 @@ public class GameManager4 : MonoBehaviour
         //Wwise
         playStartAndEndingMusic.Post(gameObject);
         stopInteractivMusic.Post(gameObject);
+        AkSoundEngine.SetState("ArrangementStates", "None");
     }
 }

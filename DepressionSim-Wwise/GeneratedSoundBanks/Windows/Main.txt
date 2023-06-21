@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	781912892	Play_sfx_bus_missed			\Default Work Unit\Play_sfx_bus_missed	
+	803833784	Play_sfx_energyCanOpen			\Default Work Unit\Play_sfx_energyCanOpen	
+	1449785589	Play_sfx_wecker_klingeln_late			\Default Work Unit\Play_sfx_wecker_klingeln_late	
+	2363615527	Stop_sfx_wecker_klingeln_late			\Default Work Unit\Stop_sfx_wecker_klingeln_late	
+	2380211326	Play_sfx_wecker_klingeln_early			\Default Work Unit\Play_sfx_wecker_klingeln_early	
+	2409102622	Play_sfx_button			\Default Work Unit\Play_sfx_button	
+	4228454885	Play_sfx_throwUp			\Default Work Unit\Play_sfx_throwUp	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	543744422	sfx_energyCanOpen	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Windows\SFX\EnergyCanOpen_6DA10593.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_energyCanOpen		96832
+	610208307	sfx_bus-missed	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Windows\SFX\Bus_68037D82.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_bus-missed		2230808
+	670554632	sfx_wecker_klingeln_early	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Windows\SFX\WeckerKlingeln_A51155F1.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_wecker_klingeln_early		438768
+	735817762	sfx_button	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Windows\SFX\Button_696FB7AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_button		45000
+	940211895	sfx_wecker_klingeln_late	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Windows\SFX\WeckerKlingeln_4456C820.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_wecker_klingeln_late		2165404
+	980093806	sfx_throwUp	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Windows\SFX\SickThrowUp_1C21A367.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_throwUp		340332
+

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{15BDB5B4-51DC-5408-0962-0546CE4FEE87}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
+				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
+				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
+				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
+				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
+				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
+				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
+				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
+				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
+				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="680904693" Name="ArrangementStates">
+					<States>
+						<State Id="300799496" Name="Frame04"/>
+						<State Id="300799497" Name="Frame05"/>
+						<State Id="300799498" Name="Frame06"/>
+						<State Id="300799501" Name="Frame01"/>
+						<State Id="300799502" Name="Frame02"/>
+						<State Id="300799503" Name="Frame03"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="713042883" Name="Hungryness">
+					<States>
+						<State Id="182421254" Name="Hungry"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1159864123" Name="NotHungry"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="862750320" Name="Tiredness">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1393142286" Name="NoTired"/>
+						<State Id="3386657621" Name="Tired"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2715298845" Name="StressLevel">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="919544048" Name="NoStress"/>
+						<State Id="3840192365" Name="Stress"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3372658147" Name="Energised">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="3372658147" Name="Energised"/>
+						<State Id="3961220184" Name="NoEnergised"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="3034623661" Type="User" Language="SFX" Hash="{482A6321-9372-4D81-FA25-9648C929DB76}">
+			<ShortName>Atmos</ShortName>
+			<Path>Atmos.bnk</Path>
+			<Media>
+				<File Id="503557917" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BellPupils.wav</ShortName>
+					<CachePath>SFX/BellPupils_4F2732E4.wem</CachePath>
+				</File>
+				<File Id="945899982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cafeteria.wav</ShortName>
+					<CachePath>SFX/cafeteria_AC073047.wem</CachePath>
+				</File>
+				<File Id="952168604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WeckerTicken.wav</ShortName>
+					<CachePath>SFX/WeckerTicken_E6BEF204.wem</CachePath>
+				</File>
+				<File Id="993789365" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cofffeeshop.wav</ShortName>
+					<CachePath>SFX/Cofffeeshop_8A3225EE.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="266329026" Name="Play_atmo_cafeteria" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="945899982"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1912263280" Name="Play_atmo_coffeeshop" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="993789365"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4214973335" Name="Play_atmo_schoolPupils" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="503557917"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3773372227" Name="Play_atmo_wecker_ticking" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="952168604"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="916655772" Name="Stop_atmo_cafeteria" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3082058498" Name="Stop_atmo_coffeeshop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1690344493" Name="Stop_atmo_schoolPupils" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1506823617" Name="Stop_atmo_wecker_ticking" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{64D02210-658F-14F2-3031-ABCE35E0D852}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="543744422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>EnergyCanOpen.wav</ShortName>
+					<CachePath>SFX/EnergyCanOpen_6DA10593.wem</CachePath>
+				</File>
+				<File Id="610208307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bus.wav</ShortName>
+					<CachePath>SFX/Bus_68037D82.wem</CachePath>
+				</File>
+				<File Id="670554632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WeckerKlingeln.wav</ShortName>
+					<CachePath>SFX/WeckerKlingeln_A51155F1.wem</CachePath>
+				</File>
+				<File Id="735817762" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button.wav</ShortName>
+					<CachePath>SFX/Button_696FB7AF.wem</CachePath>
+				</File>
+				<File Id="940211895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WeckerKlingeln.wav</ShortName>
+					<CachePath>SFX/WeckerKlingeln_4456C820.wem</CachePath>
+				</File>
+				<File Id="980093806" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SickThrowUp.wav</ShortName>
+					<CachePath>SFX/SickThrowUp_1C21A367.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="781912892" Name="Play_sfx_bus_missed" DurationType="OneShot" DurationMin="12.645757" DurationMax="12.645757">
+					<MediaRefs>
+						<MediaRef Id="610208307"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2409102622" Name="Play_sfx_button" DurationType="OneShot" DurationMin="0.25456443" DurationMax="0.25456443">
+					<MediaRefs>
+						<MediaRef Id="735817762"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="803833784" Name="Play_sfx_energyCanOpen" DurationType="OneShot" DurationMin="0.54838336" DurationMax="0.54838336">
+					<MediaRefs>
+						<MediaRef Id="543744422"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4228454885" Name="Play_sfx_throwUp" DurationType="OneShot" DurationMin="1.9284118" DurationMax="1.9284118">
+					<MediaRefs>
+						<MediaRef Id="980093806"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2380211326" Name="Play_sfx_wecker_klingeln_early" DurationType="OneShot" DurationMin="2.4868214" DurationMax="2.4868214">
+					<MediaRefs>
+						<MediaRef Id="670554632"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1449785589" Name="Play_sfx_wecker_klingeln_late" DurationType="OneShot" DurationMin="12.27499" DurationMax="12.27499">
+					<MediaRefs>
+						<MediaRef Id="940211895"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2363615527" Name="Stop_sfx_wecker_klingeln_late" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{6A07E0DD-480D-3337-DD5E-7689478E6444}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="0" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame05_Drums.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame05_Drums_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="76555587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame01_Arp.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame01_Arp_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="93677020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame01_Harmony.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame01_Harmony_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="204935102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame04_Drums.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame04_Drums_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="221318138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame05_Melody-Bass.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame05_Melody-Bass_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="258732415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame06_Melody-Bass.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame06_Melody-Bass_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="507656867" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Forbit´s_8bitVersion.wav</ShortName>
+					<CachePath>SFX/Forbit´s_8bitVersion_6848C375.wem</CachePath>
+				</File>
+				<File Id="604049455" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame05_Drums.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame05_Drums_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="623248831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame06_Bass.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame06_Bass_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="761615625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame01_Melody-Bass.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame01_Melody-Bass_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="902460813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame02_Drums.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame02_Drums_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="965622213" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame01_Bass2.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame01_Bass2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="983820762" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DepressionSim_Frame01_Bass3.wav</ShortName>
+					<CachePath>SFX/DepressionSim_Frame01_Bass3_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1943873006" Name="Play_ending_Music01" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="507656867"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2907544272" Name="Play_MusicContainer" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="680904693" Id="300799501"/>
+							<MediaRefs>
+								<MediaRef Id="93677020"/>
+								<MediaRef Id="204935102"/>
+								<MediaRef Id="221318138"/>
+								<MediaRef Id="604049455"/>
+								<MediaRef Id="761615625"/>
+								<MediaRef Id="902460813"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="680904693" Id="300799502"/>
+							<MediaRefs>
+								<MediaRef Id="0"/>
+								<MediaRef Id="76555587"/>
+								<MediaRef Id="93677020"/>
+								<MediaRef Id="204935102"/>
+								<MediaRef Id="221318138"/>
+								<MediaRef Id="258732415"/>
+								<MediaRef Id="902460813"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="680904693" Id="300799503"/>
+							<MediaRefs>
+								<MediaRef Id="76555587"/>
+								<MediaRef Id="93677020"/>
+								<MediaRef Id="204935102"/>
+								<MediaRef Id="221318138"/>
+								<MediaRef Id="258732415"/>
+								<MediaRef Id="604049455"/>
+								<MediaRef Id="902460813"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="680904693" Id="300799496"/>
+							<MediaRefs>
+								<MediaRef Id="76555587"/>
+								<MediaRef Id="93677020"/>
+								<MediaRef Id="204935102"/>
+								<MediaRef Id="221318138"/>
+								<MediaRef Id="604049455"/>
+								<MediaRef Id="902460813"/>
+								<MediaRef Id="965622213"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="680904693" Id="300799497"/>
+							<MediaRefs>
+								<MediaRef Id="0"/>
+								<MediaRef Id="76555587"/>
+								<MediaRef Id="93677020"/>
+								<MediaRef Id="204935102"/>
+								<MediaRef Id="221318138"/>
+								<MediaRef Id="604049455"/>
+								<MediaRef Id="902460813"/>
+								<MediaRef Id="983820762"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="680904693" Id="300799498"/>
+							<MediaRefs>
+								<MediaRef Id="0"/>
+								<MediaRef Id="76555587"/>
+								<MediaRef Id="623248831"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2878211692" Name="Stop_ending_Music01" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="571444690" Name="Stop_MusicContainer" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="680904693" Name="ArrangementStates">
+					<States>
+						<State Id="300799496" Name="Frame04"/>
+						<State Id="300799497" Name="Frame05"/>
+						<State Id="300799498" Name="Frame06"/>
+						<State Id="300799501" Name="Frame01"/>
+						<State Id="300799502" Name="Frame02"/>
+						<State Id="300799503" Name="Frame03"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="713042883" Name="Hungryness">
+					<States>
+						<State Id="182421254" Name="Hungry"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1159864123" Name="NotHungry"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="862750320" Name="Tiredness">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1393142286" Name="NoTired"/>
+						<State Id="3386657621" Name="Tired"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2715298845" Name="StressLevel">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="919544048" Name="NoStress"/>
+						<State Id="3840192365" Name="Stress"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3372658147" Name="Energised">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="3372658147" Name="Energised"/>
+						<State Id="3961220184" Name="NoEnergised"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BBC27B49-9E4F-C285-9CA6-09049E305AA9}</FileHash>
+</SoundBanksInfo>

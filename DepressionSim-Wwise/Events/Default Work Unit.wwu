@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{EFD17A20-50BA-4CC1-AA66-1A591F037116}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_sfx_bus_missed" ID="{28F9B184-F510-452C-9180-B8E33DFD4B22}">
+					<ChildrenList>
+						<Action Name="" ID="{0709724B-FCF7-45F7-8293-88AA2DC6BC0A}" ShortID="400586658">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_bus-missed" ID="{D24DFA29-FA82-4EB0-9A36-57C7EE677AF6}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_atmo_cafeteria" ID="{80B9C15A-FF3F-4D8B-A8B1-E77D06D24DB0}">
+					<ChildrenList>
+						<Action Name="" ID="{7515C4E8-FEC1-416D-A91A-CCBC2E23476C}" ShortID="958031534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="atmo_cafeteria" ID="{67E77494-867E-42B3-83F3-2638632EF5EF}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_atmo_wecker_ticking" ID="{DC30AB1E-DE2B-4DCF-88A0-AD0F60842E64}">
+					<ChildrenList>
+						<Action Name="" ID="{AFC75042-3912-43CA-B026-98B200EE636F}" ShortID="371399024">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="atmo_wecker-ticking" ID="{19423974-9089-452E-8E4D-12D85AB2093B}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_atmo_wecker_ticking" ID="{181C8E34-2405-425E-8311-B5204C876761}">
+					<ChildrenList>
+						<Action Name="" ID="{4028CE47-18DD-47FC-A382-FE351A5F22DF}" ShortID="373423302">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="atmo_wecker-ticking" ID="{19423974-9089-452E-8E4D-12D85AB2093B}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ending_Music01" ID="{F24E82BF-AD8F-4877-8BB5-B593408C78E3}">
+					<ChildrenList>
+						<Action Name="" ID="{C4380647-B080-4665-9818-D29967C5E0CC}" ShortID="128142642">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ending_Music01" ID="{9EFCB366-6E99-4D40-BCBE-259EDBB88F8B}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_energyCanOpen" ID="{9C24139F-DDA5-42CB-B507-0A3B287A98A1}">
+					<ChildrenList>
+						<Action Name="" ID="{0350CF48-4D9C-44EA-A641-A22679E1949D}" ShortID="734242408">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_energyCanOpen" ID="{B27D1E5D-D38F-462F-A118-84D5EEA20F19}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_throwUp" ID="{1D7E4AEA-B05C-43BF-9F5D-67AAC4BB5628}">
+					<ChildrenList>
+						<Action Name="" ID="{30A1F60E-ADE7-4887-BE8F-A2EB9F6BBDD7}" ShortID="859130998">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_throwUp" ID="{DAF55DBD-F560-4B1F-8244-C0641F450934}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_atmo_coffeeshop" ID="{FB878E36-36B7-42AB-81A2-3D75B7F03160}">
+					<ChildrenList>
+						<Action Name="" ID="{77BC9F14-2943-4A38-9602-19EE92F27EFF}" ShortID="858035782">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="atmo_coffeeshop" ID="{8CA98EB0-4BB1-4848-9445-CED8CB6CA9B7}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_atmo_coffeeshop" ID="{F32358A0-7C66-4DD7-9424-2187ACAB4459}">
+					<ChildrenList>
+						<Action Name="" ID="{B3B77C02-99FC-41A0-9957-748DE2CCE79F}" ShortID="896764761">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="atmo_coffeeshop" ID="{8CA98EB0-4BB1-4848-9445-CED8CB6CA9B7}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_atmo_schoolPupils" ID="{0204C1A6-3656-40E5-9E7C-1FE6DDD2E371}">
+					<ChildrenList>
+						<Action Name="" ID="{D27328C6-8267-4F00-B7DE-3F3079F67521}" ShortID="123798026">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="atmo_schoolPupils" ID="{2A0BA223-5DB9-446C-BF1F-485AEB2485F0}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_atmo_schoolPupils" ID="{72E5FE4A-85C4-446F-B945-46BA8E48DC39}">
+					<ChildrenList>
+						<Action Name="" ID="{F35E54AB-D620-4B82-8CC8-D732EEBE3632}" ShortID="643347543">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="atmo_schoolPupils" ID="{2A0BA223-5DB9-446C-BF1F-485AEB2485F0}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_atmo_cafeteria" ID="{D4EF6163-B8EB-4476-B5AF-49B145CE8CE4}">
+					<ChildrenList>
+						<Action Name="" ID="{BB020875-93BB-468E-8AC3-CE85E326C3F8}" ShortID="355093529">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="atmo_cafeteria" ID="{67E77494-867E-42B3-83F3-2638632EF5EF}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_wecker_klingeln_early" ID="{488AF07B-FE7B-4F29-BC19-5DCE1A5DF960}">
+					<ChildrenList>
+						<Action Name="" ID="{8B97D660-FC42-41E4-A30B-7A4DB4D73DD5}" ShortID="914761070">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_wecker_klingeln_early" ID="{1AF14C65-D81F-43DB-B658-96E546DE3CAC}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_wecker_klingeln_late" ID="{C0EC4E0F-3CFE-4F06-9D49-3BC874969233}">
+					<ChildrenList>
+						<Action Name="" ID="{64266F4F-4AC1-47FD-88C5-5D8A3EDE5229}" ShortID="5739126">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_wecker_klingeln_late" ID="{D108E492-C167-445F-A757-6036325A7220}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ending_Music01" ID="{3F37F682-E17A-4000-B836-D3811F6E4DE7}">
+					<ChildrenList>
+						<Action Name="" ID="{62210CC4-11CA-42EB-ABB0-7F9374539710}" ShortID="581861254">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ending_Music01" ID="{9EFCB366-6E99-4D40-BCBE-259EDBB88F8B}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_sfx_wecker_klingeln_late" ID="{DB39B994-CCBD-459E-9F25-795A32D343FB}">
+					<ChildrenList>
+						<Action Name="" ID="{07E63495-DD34-4CAB-85AF-0AC1EA21653F}" ShortID="924722249">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_wecker_klingeln_late" ID="{D108E492-C167-445F-A757-6036325A7220}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MusicContainer" ID="{605AF281-477C-449B-86E7-5E4836D28793}">
+					<ChildrenList>
+						<Action Name="" ID="{5B9301FB-469B-4073-A60D-1554B9CE69EE}" ShortID="83585988">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicContainer" ID="{3D672C52-6600-41E3-9FDA-7EE890109C5F}" WorkUnitID="{D96E6CEB-5BFD-439B-98B7-0443D6B621F3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MusicContainer" ID="{509C1864-A3AD-42D3-86F6-757B975CC302}">
+					<ChildrenList>
+						<Action Name="" ID="{0A912215-696F-4598-85CD-C06979EB83A7}" ShortID="185085615">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicContainer" ID="{3D672C52-6600-41E3-9FDA-7EE890109C5F}" WorkUnitID="{D96E6CEB-5BFD-439B-98B7-0443D6B621F3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sfx_button" ID="{8ADB019B-8059-43BF-9C05-15EA38E4AE33}">
+					<ChildrenList>
+						<Action Name="" ID="{8ACFFD9A-DA4A-4314-B145-8496586FF028}" ShortID="524895457">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_button" ID="{298D363A-2BF0-4844-98B1-B5FC67C292F5}" WorkUnitID="{D5A59274-E9D8-4BC5-98A9-5348DD860006}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
