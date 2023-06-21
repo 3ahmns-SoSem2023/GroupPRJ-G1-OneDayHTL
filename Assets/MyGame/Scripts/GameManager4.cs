@@ -175,7 +175,7 @@ public class GameManager4 : MonoBehaviour
 
         texts[7].gameObject.SetActive(true);
         textScript.TextEnding7();
-        images[0].SetImg(sprites[2]);
+        images[0].SetImg(sprites[1]);
 
 
         //Wwise

@@ -159,7 +159,7 @@ public class GameManager3 : MonoBehaviour
 
         texts[7].gameObject.SetActive(true);
         textScript.TextEnding4();
-        images[0].SetImg(sprites[2]);
+        images[0].SetImg(sprites[1]);
 
 
         //Wwise
@@ -179,7 +179,7 @@ public class GameManager3 : MonoBehaviour
 
         texts[7].gameObject.SetActive(true);
         textScript.TextEnding5();
-        images[0].SetImg(sprites[2]);
+        images[0].SetImg(sprites[1]);
 
 
         //Wwise

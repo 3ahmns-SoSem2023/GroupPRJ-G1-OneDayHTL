@@ -185,7 +185,7 @@ public class GameManager5 : MonoBehaviour
 
         texts[7].gameObject.SetActive(true);
         textScript.TextEnding8();
-        images[0].SetImg(sprites[2]);
+        images[0].SetImg(sprites[1]);
 
 
         //Wwise
@@ -205,7 +205,7 @@ public class GameManager5 : MonoBehaviour
 
         texts[7].gameObject.SetActive(true);
         textScript.TextEnding9();
-        images[0].SetImg(sprites[2]);
+        images[0].SetImg(sprites[1]);
 
 
         //Wwise
@@ -225,7 +225,7 @@ public class GameManager5 : MonoBehaviour
 
         texts[7].gameObject.SetActive(true);
         textScript.TextEnding10();
-        images[0].SetImg(sprites[2]);
+        images[0].SetImg(sprites[1]);
 
 
         //Wwise

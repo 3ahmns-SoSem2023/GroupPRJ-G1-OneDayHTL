@@ -159,6 +159,7 @@ public class GameManager : MonoBehaviour
         playStartAndEndingMusic.Post(gameObject);
         playWeckerAtmo.Post(gameObject);
         AkSoundEngine.SetState("ArrangementStates", "Frame01");
+        //kSoundEngine.LoadBank(); 
 
     }
 

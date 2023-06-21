@@ -211,7 +211,7 @@ public class GameManager2 : MonoBehaviour
 
         texts[7].gameObject.SetActive(true);
         textScript.TextEnding3();
-        images[0].SetImg(sprites[2]);
+        images[0].SetImg(sprites[1]);
 
 
         //Wwise
@@ -231,7 +231,7 @@ public class GameManager2 : MonoBehaviour
 
         texts[7].gameObject.SetActive(true);
         textScript.TextEnding11();
-        images[0].SetImg(sprites[2]);
+        images[0].SetImg(sprites[1]);
 
 
         //Wwise
