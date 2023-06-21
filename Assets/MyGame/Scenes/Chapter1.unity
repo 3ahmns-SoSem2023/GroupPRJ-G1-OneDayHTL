@@ -2503,6 +2503,7 @@ MonoBehaviour:
   - {fileID: 934464713}
   sprites:
   - {fileID: 21300000, guid: 2bc0ea479e5b1b9439a6095b44739f14, type: 3}
+  - {fileID: 21300000, guid: c1125ee7eee07d94a80a61e7847f5628, type: 3}
   images:
   - {fileID: 2057345498}
   efctStorage: {fileID: 0}
