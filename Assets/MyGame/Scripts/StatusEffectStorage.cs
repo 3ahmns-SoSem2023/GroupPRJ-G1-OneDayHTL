@@ -54,4 +54,32 @@ public class StatusEffectStorage : MonoBehaviour
         }
     }
 
+    public void Update()
+    {
+        //tired
+        if (statusEffects[0])
+        {
+
+        }
+
+        //hungry
+        if (statusEffects[1])
+        {
+
+        }
+
+
+        //late
+        if (statusEffects[2])
+        {
+
+        }
+
+        //energised
+        if (statusEffects[3])
+        {
+
+        }
+    }
+
 }
