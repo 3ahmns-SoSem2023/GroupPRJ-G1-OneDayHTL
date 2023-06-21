@@ -390,6 +390,18 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 398afb15ed4b6994abaf07277e0e8e4b, type: 2}
+  playInteractivMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5fef8c049f7e2154dbad8637b61c803a, type: 2}
+  stopInteractivMusic:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 37cad25b786efa54588ec599e2b883e4, type: 2}
+  playButtonClick:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6c4c425d971f61a4eae5c71aeab37c5e, type: 2}
 --- !u!4 &160395144
 Transform:
   m_ObjectHideFlags: 0

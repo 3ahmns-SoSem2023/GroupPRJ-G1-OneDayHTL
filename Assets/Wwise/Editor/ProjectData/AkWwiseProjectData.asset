@@ -331,7 +331,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f33eede9dc16f0449299c272baa1892a
     GuidInternal: 
-    m_lastTime: -8585144194302091074
+    m_lastTime: -8585142515513404174
     List:
     - name: Atmos
       guid: a83a9d58176cd24da0e6e9dd0c46029a
@@ -387,7 +387,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 207ad1efba50c14caa661a591f037116
     GuidInternal: 
-    m_lastTime: -8585144195273530122
+    m_lastTime: -8585142515513483995
     List:
     - name: Play_atmo_cafeteria
       guid: 5ac1b9803fff8b4da8b1e77d06d24db0
@@ -474,6 +474,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_MusicContainer
+      guid: 81f25a607c479b4486e75e4836d28793
+      id: 2907544272
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_MusicContainer
+        ObjectType: 3
+        guid: 81f25a607c479b4486e75e4836d28793
+      Path: Events\Default Work Unit\Play_MusicContainer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_sfx_bus_missed
       guid: 84b1f92810f52c459180b8e33dfd4b22
       id: 781912892
@@ -488,6 +505,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 84b1f92810f52c459180b8e33dfd4b22
       Path: Events\Default Work Unit\Play_sfx_bus_missed
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_sfx_button
+      guid: 9b01db8a5980bf439c0515ea38e4ae33
+      id: 2409102622
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Play_sfx_button
+        ObjectType: 3
+        guid: 9b01db8a5980bf439c0515ea38e4ae33
+      Path: Events\Default Work Unit\Play_sfx_button
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -641,6 +675,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 82f6373f7ae10040b836d3811f6e4de7
       Path: Events\Default Work Unit\Stop_ending_Music01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_MusicContainer
+      guid: 64189c50ada3d34286f6757b975cc302
+      id: 571444690
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 207ad1efba50c14caa661a591f037116
+      - ElementName: Stop_MusicContainer
+        ObjectType: 3
+        guid: 64189c50ada3d34286f6757b975cc302
+      Path: Events\Default Work Unit\Stop_MusicContainer
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -840,8 +891,254 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 27ba93565990714a96d24f71511f102c
     GuidInternal: 
-    m_lastTime: -8585172704156141504
-    List: []
+    m_lastTime: -8585142525380557801
+    List:
+    - name: ArrangementStates
+      guid: 00e6e2b60b2c3840a6fcb6f174d3e10a
+      id: 680904693
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27ba93565990714a96d24f71511f102c
+      - ElementName: ArrangementStates
+        ObjectType: 9
+        guid: 00e6e2b60b2c3840a6fcb6f174d3e10a
+      Path: States\Default Work Unit\ArrangementStates
+      values:
+      - name: Frame01
+        guid: 3183a49778328b4db2784ad318857369
+        id: 300799501
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: ArrangementStates
+          ObjectType: 9
+          guid: 00e6e2b60b2c3840a6fcb6f174d3e10a
+        - ElementName: Frame01
+          ObjectType: 8
+          guid: 3183a49778328b4db2784ad318857369
+      - name: Frame02
+        guid: 9c657618569e394689628f680b336be1
+        id: 300799502
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: ArrangementStates
+          ObjectType: 9
+          guid: 00e6e2b60b2c3840a6fcb6f174d3e10a
+        - ElementName: Frame02
+          ObjectType: 8
+          guid: 9c657618569e394689628f680b336be1
+      - name: Frame03
+        guid: 31c60f44fdd4874990a749647fb6b7ae
+        id: 300799503
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: ArrangementStates
+          ObjectType: 9
+          guid: 00e6e2b60b2c3840a6fcb6f174d3e10a
+        - ElementName: Frame03
+          ObjectType: 8
+          guid: 31c60f44fdd4874990a749647fb6b7ae
+      - name: Frame04
+        guid: 190bf443d301034da173deb57e242941
+        id: 300799496
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: ArrangementStates
+          ObjectType: 9
+          guid: 00e6e2b60b2c3840a6fcb6f174d3e10a
+        - ElementName: Frame04
+          ObjectType: 8
+          guid: 190bf443d301034da173deb57e242941
+      - name: Frame05
+        guid: 7b302075a926bb42bd1d68546cf7ec80
+        id: 300799497
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: ArrangementStates
+          ObjectType: 9
+          guid: 00e6e2b60b2c3840a6fcb6f174d3e10a
+        - ElementName: Frame05
+          ObjectType: 8
+          guid: 7b302075a926bb42bd1d68546cf7ec80
+      - name: None
+        guid: b76fc36f2435cc47a9ccc59a69044436
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: ArrangementStates
+          ObjectType: 9
+          guid: 00e6e2b60b2c3840a6fcb6f174d3e10a
+        - ElementName: None
+          ObjectType: 8
+          guid: b76fc36f2435cc47a9ccc59a69044436
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: StressLevel
+      guid: 49a4019d40d4ec4f89abf5db175feec3
+      id: 2715298845
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27ba93565990714a96d24f71511f102c
+      - ElementName: StressLevel
+        ObjectType: 9
+        guid: 49a4019d40d4ec4f89abf5db175feec3
+      Path: States\Default Work Unit\StressLevel
+      values:
+      - name: None
+        guid: d500f6a10e950249a812abf3898f2e3a
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: StressLevel
+          ObjectType: 9
+          guid: 49a4019d40d4ec4f89abf5db175feec3
+        - ElementName: None
+          ObjectType: 8
+          guid: d500f6a10e950249a812abf3898f2e3a
+      - name: NoStress
+        guid: 86f8571f2816074f8cc022ced4bd2c05
+        id: 919544048
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: StressLevel
+          ObjectType: 9
+          guid: 49a4019d40d4ec4f89abf5db175feec3
+        - ElementName: NoStress
+          ObjectType: 8
+          guid: 86f8571f2816074f8cc022ced4bd2c05
+      - name: Stress
+        guid: 7ce70efa5ca2d44db959d4884d6a412e
+        id: 3840192365
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: StressLevel
+          ObjectType: 9
+          guid: 49a4019d40d4ec4f89abf5db175feec3
+        - ElementName: Stress
+          ObjectType: 8
+          guid: 7ce70efa5ca2d44db959d4884d6a412e
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Tiredness
+      guid: 4bbaf02eee58e7459926b1871b3a6c67
+      id: 862750320
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27ba93565990714a96d24f71511f102c
+      - ElementName: Tiredness
+        ObjectType: 9
+        guid: 4bbaf02eee58e7459926b1871b3a6c67
+      Path: States\Default Work Unit\Tiredness
+      values:
+      - name: None
+        guid: ae68763c91a8fc4996ba433333dcfb29
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: Tiredness
+          ObjectType: 9
+          guid: 4bbaf02eee58e7459926b1871b3a6c67
+        - ElementName: None
+          ObjectType: 8
+          guid: ae68763c91a8fc4996ba433333dcfb29
+      - name: NoTired
+        guid: fd5ef636df701240865b085e386002d0
+        id: 1393142286
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: Tiredness
+          ObjectType: 9
+          guid: 4bbaf02eee58e7459926b1871b3a6c67
+        - ElementName: NoTired
+          ObjectType: 8
+          guid: fd5ef636df701240865b085e386002d0
+      - name: Tired
+        guid: 0507fca8e7884345860774f8f3c17a42
+        id: 3386657621
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 27ba93565990714a96d24f71511f102c
+        - ElementName: Tiredness
+          ObjectType: 9
+          guid: 4bbaf02eee58e7459926b1871b3a6c67
+        - ElementName: Tired
+          ObjectType: 8
+          guid: 0507fca8e7884345860774f8f3c17a42
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
