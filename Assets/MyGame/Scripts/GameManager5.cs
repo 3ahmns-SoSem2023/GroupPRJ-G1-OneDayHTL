@@ -121,7 +121,7 @@ public class GameManager5 : MonoBehaviour
         nxtState2 = GameState.Stay2;
 
         //Wwise
-        
+        AkSoundEngine.SetState("ArrangementStates", "Frame04");
     }
 
     public void STSkip1()
@@ -133,7 +133,9 @@ public class GameManager5 : MonoBehaviour
         nxtState1 = GameState.Dodge3;
         nxtState2 = GameState.Ignore4;
         //Wwise
-        
+        AkSoundEngine.SetState("ArrangementStates", "Frame05");
+        forWwise.stopWeckerAtmo.Post(gameObject);
+        forWwise.playSchoolPupilsAtmo.Post(gameObject);
     }
     //Update this
     public void STStay2()
@@ -174,6 +176,7 @@ public class GameManager5 : MonoBehaviour
 
         //Wwise
         forWwise.playStartAndEndingMusic.Post(gameObject);
+        forWwise.stopInteractivMusic.Post(gameObject);
     }
 
     public void Ending9()
@@ -193,6 +196,7 @@ public class GameManager5 : MonoBehaviour
 
         //Wwise
         forWwise.playStartAndEndingMusic.Post(gameObject);
+        forWwise.stopInteractivMusic.Post(gameObject);
     }
 
     public void Ending10()
@@ -212,5 +216,6 @@ public class GameManager5 : MonoBehaviour
 
         //Wwise
         forWwise.playStartAndEndingMusic.Post(gameObject);
+        forWwise.stopInteractivMusic.Post(gameObject);
     }
 }

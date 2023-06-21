@@ -363,7 +363,7 @@ MonoBehaviour:
   efctStorage: {fileID: 627451113}
   twoButtons: {fileID: 365779035}
   oneButton: {fileID: 1673279762}
-  textScript: {fileID: 160395145}
+  textScript: {fileID: 0}
   playWeckerAtmo:
     idInternal: 0
     valueGuidInternal: 
@@ -372,6 +372,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 628d09a4da4fabd43b933fa31e1fd1c0, type: 2}
+  playSchoolPupilsAtmo:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b312c121592b84947a8fb371d7764d6d, type: 2}
   playStartAndEndingMusic:
     idInternal: 0
     valueGuidInternal: 

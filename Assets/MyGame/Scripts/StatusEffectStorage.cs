@@ -59,26 +59,42 @@ public class StatusEffectStorage : MonoBehaviour
         //tired
         if (statusEffects[0])
         {
-
+            AkSoundEngine.SetState("Tiredness", "Tired");
+        }
+        else
+        {
+            AkSoundEngine.SetState("Tiredness", "NoTired");
         }
 
         //hungry
         if (statusEffects[1])
         {
-
+            AkSoundEngine.SetState("Hungryness", "Hungry");
+        }
+        else
+        {
+            AkSoundEngine.SetState("Hungryness", "NoHungry");
         }
 
 
         //late
         if (statusEffects[2])
         {
-
+            AkSoundEngine.SetState("StressLevel", "Stress");
+        }
+        else
+        {
+            AkSoundEngine.SetState("StressLevel", "NoStress");
         }
 
         //energised
         if (statusEffects[3])
         {
-
+            AkSoundEngine.SetState("Energised", "Energised");
+        }
+        else
+        {
+            AkSoundEngine.SetState("Energised", "NoEnergised");
         }
     }
 

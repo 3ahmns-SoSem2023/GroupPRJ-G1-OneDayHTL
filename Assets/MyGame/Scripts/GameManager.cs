@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     [Header("Wwise Variablen")]
     public AK.Wwise.Event playWeckerAtmo;
     public AK.Wwise.Event stopWeckerAtmo;
+    public AK.Wwise.Event playSchoolPupilsAtmo; 
 
     public AK.Wwise.Event playStartAndEndingMusic;
     public AK.Wwise.Event stopStartAndEndingMusic;
@@ -58,6 +59,9 @@ public class GameManager : MonoBehaviour
         UpdateGameState(0);
         //Findet den StatusEffectStorage
         efctStorage = GameObject.FindGameObjectWithTag("statusEfctStorage").GetComponent<StatusEffectStorage>();
+
+        //Wwise
+        AkSoundEngine.SetState("Tiredness", "NoTired");
     }
 
     //Updatet den GameState zum in der Variable spezifizierten
@@ -153,7 +157,9 @@ public class GameManager : MonoBehaviour
 
         //Wwise
         playStartAndEndingMusic.Post(gameObject);
-        playWeckerAtmo.Post(gameObject); 
+        playWeckerAtmo.Post(gameObject);
+        AkSoundEngine.SetState("ArrangementStates", "Frame01");
+
     }
 
     public void STEarly1()
@@ -171,7 +177,7 @@ public class GameManager : MonoBehaviour
         playWeckerEarly.Post(gameObject);
         stopStartAndEndingMusic.Post(gameObject);
 
-        AkSoundEngine.SetState("ArrangementStates", "Frame01"); 
+        AkSoundEngine.SetState("ArrangementStates", "Frame02");
         playInteractivMusic.Post(gameObject);
     }
     //Update this
@@ -191,7 +197,7 @@ public class GameManager : MonoBehaviour
         playWeckerLate.Post(gameObject);
         stopStartAndEndingMusic.Post(gameObject);
 
-        AkSoundEngine.SetState("ArrangementStates", "Frame01"); 
+        AkSoundEngine.SetState("ArrangementStates", "Frame02"); 
         playInteractivMusic.Post(gameObject);
     }
 
@@ -348,6 +354,7 @@ public class GameManager : MonoBehaviour
         //Wwise
         stopWeckerAtmo.Post(gameObject);
         playStartAndEndingMusic.Post(gameObject);
+        stopInteractivMusic.Post(gameObject); 
 
     }
 }
