@@ -1434,6 +1434,9 @@
 												<AudioFileSource Name="DepressionSim_Frame05_Drums" ID="{1E6C3624-D83F-4E97-853D-2CE0648433AB}">
 													<Language>SFX</Language>
 													<AudioFile>DepressionSim_Frame05_Drums.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604049455"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -4289,6 +4292,9 @@
 												<AudioFileSource Name="DepressionSim_Frame05_Drums" ID="{413EE524-CE01-4B0E-BED4-1042A5A4A3AC}">
 													<Language>SFX</Language>
 													<AudioFile>DepressionSim_Frame05_Drums.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604049455"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -4668,10 +4674,16 @@
 												<AudioFileSource Name="DepressionSim_Frame01_Harmony" ID="{90E2999E-174F-46CA-986F-66A75CC66744}">
 													<Language>SFX</Language>
 													<AudioFile>DepressionSim_Frame01_Harmony.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="93677020"/>
+													</MediaIDList>
 												</AudioFileSource>
 												<AudioFileSource Name="DepressionSim_Frame05_Melody-Bass" ID="{6F6215A8-70DC-4357-BCBF-A202C01F2301}">
 													<Language>SFX</Language>
 													<AudioFile>DepressionSim_Frame05_Melody-Bass.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="221318138"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -4901,14 +4913,23 @@
 												<AudioFileSource Name="DepressionSim_Frame02_Drums" ID="{84B3EFEA-D226-4074-B6B3-FAEB0721B43C}">
 													<Language>SFX</Language>
 													<AudioFile>DepressionSim_Frame02_Drums.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="902460813"/>
+													</MediaIDList>
 												</AudioFileSource>
 												<AudioFileSource Name="DepressionSim_Frame04_Drums" ID="{83DE4FCB-1046-48CB-8741-C9EACA8795F6}">
 													<Language>SFX</Language>
 													<AudioFile>DepressionSim_Frame04_Drums.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="204935102"/>
+													</MediaIDList>
 												</AudioFileSource>
 												<AudioFileSource Name="DepressionSim_Frame05_Drums" ID="{5B952A2F-4731-49FD-ADB1-E205936C7127}">
 													<Language>SFX</Language>
 													<AudioFile>DepressionSim_Frame05_Drums.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604049455"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
@@ -5508,6 +5529,9 @@
 												<AudioFileSource Name="DepressionSim_Frame05_Drums" ID="{9440502F-21DB-45D1-919B-42BB912EECCB}">
 													<Language>SFX</Language>
 													<AudioFile>DepressionSim_Frame05_Drums.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604049455"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>

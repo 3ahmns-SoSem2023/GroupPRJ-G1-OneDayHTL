@@ -189,25 +189,25 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3034623661" Type="User" Language="SFX" Hash="{482A6321-9372-4D81-FA25-9648C929DB76}">
+		<SoundBank Id="3034623661" Type="User" Language="SFX" Hash="{4A40928A-DC62-0E45-4166-083471E48132}">
 			<ShortName>Atmos</ShortName>
 			<Path>Atmos.bnk</Path>
 			<Media>
 				<File Id="503557917" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BellPupils.wav</ShortName>
-					<CachePath>SFX/BellPupils_4F2732E4.wem</CachePath>
+					<CachePath>SFX/BellPupils_4B812A14.wem</CachePath>
 				</File>
 				<File Id="945899982" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>cafeteria.wav</ShortName>
-					<CachePath>SFX/cafeteria_AC073047.wem</CachePath>
+					<CachePath>SFX/cafeteria_5905CBB7.wem</CachePath>
 				</File>
 				<File Id="952168604" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WeckerTicken.wav</ShortName>
-					<CachePath>SFX/WeckerTicken_E6BEF204.wem</CachePath>
+					<CachePath>SFX/WeckerTicken_C6FD29B4.wem</CachePath>
 				</File>
 				<File Id="993789365" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cofffeeshop.wav</ShortName>
-					<CachePath>SFX/Cofffeeshop_8A3225EE.wem</CachePath>
+					<CachePath>SFX/Cofffeeshop_801D195E.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -237,33 +237,33 @@
 				<Event Id="1506823617" Name="Stop_atmo_wecker_ticking" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{64D02210-658F-14F2-3031-ABCE35E0D852}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0F4DC271-3121-E202-D2FB-887DEB6AA699}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="543744422" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>EnergyCanOpen.wav</ShortName>
-					<CachePath>SFX/EnergyCanOpen_6DA10593.wem</CachePath>
+					<CachePath>SFX/EnergyCanOpen_15E557C3.wem</CachePath>
 				</File>
 				<File Id="610208307" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bus.wav</ShortName>
-					<CachePath>SFX/Bus_68037D82.wem</CachePath>
+					<CachePath>SFX/Bus_680EDC52.wem</CachePath>
 				</File>
 				<File Id="670554632" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WeckerKlingeln.wav</ShortName>
-					<CachePath>SFX/WeckerKlingeln_A51155F1.wem</CachePath>
+					<CachePath>SFX/WeckerKlingeln_84551101.wem</CachePath>
 				</File>
 				<File Id="735817762" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Button.wav</ShortName>
-					<CachePath>SFX/Button_696FB7AF.wem</CachePath>
+					<CachePath>SFX/Button_5AF73CCB.wem</CachePath>
 				</File>
 				<File Id="940211895" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WeckerKlingeln.wav</ShortName>
-					<CachePath>SFX/WeckerKlingeln_4456C820.wem</CachePath>
+					<CachePath>SFX/WeckerKlingeln_BE20FA90.wem</CachePath>
 				</File>
 				<File Id="980093806" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SickThrowUp.wav</ShortName>
-					<CachePath>SFX/SickThrowUp_1C21A367.wem</CachePath>
+					<CachePath>SFX/SickThrowUp_C2927ED7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -300,61 +300,57 @@
 				<Event Id="2363615527" Name="Stop_sfx_wecker_klingeln_late" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{6A07E0DD-480D-3337-DD5E-7689478E6444}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{4BE56706-4221-A7D7-0240-8D81236A6885}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
-				<File Id="0" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>DepressionSim_Frame05_Drums.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame05_Drums_D79FB2B7.wem</CachePath>
-				</File>
 				<File Id="76555587" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame01_Arp.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame01_Arp_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame01_Arp_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="93677020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame01_Harmony.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame01_Harmony_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame01_Harmony_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="204935102" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame04_Drums.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame04_Drums_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame04_Drums_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="221318138" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame05_Melody-Bass.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame05_Melody-Bass_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame05_Melody-Bass_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="258732415" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame06_Melody-Bass.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame06_Melody-Bass_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame06_Melody-Bass_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="507656867" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Forbit´s_8bitVersion.wav</ShortName>
-					<CachePath>SFX/Forbit´s_8bitVersion_6848C375.wem</CachePath>
+					<CachePath>SFX/Forbit´s_8bitVersion_B4F5CCE5.wem</CachePath>
 				</File>
 				<File Id="604049455" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame05_Drums.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame05_Drums_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame05_Drums_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="623248831" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame06_Bass.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame06_Bass_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame06_Bass_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="761615625" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame01_Melody-Bass.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame01_Melody-Bass_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame01_Melody-Bass_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="902460813" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame02_Drums.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame02_Drums_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame02_Drums_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="965622213" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame01_Bass2.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame01_Bass2_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame01_Bass2_9EDFC787.wem</CachePath>
 				</File>
 				<File Id="983820762" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DepressionSim_Frame01_Bass3.wav</ShortName>
-					<CachePath>SFX/DepressionSim_Frame01_Bass3_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/DepressionSim_Frame01_Bass3_9EDFC787.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -379,12 +375,12 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="680904693" Id="300799502"/>
 							<MediaRefs>
-								<MediaRef Id="0"/>
 								<MediaRef Id="76555587"/>
 								<MediaRef Id="93677020"/>
 								<MediaRef Id="204935102"/>
 								<MediaRef Id="221318138"/>
 								<MediaRef Id="258732415"/>
+								<MediaRef Id="604049455"/>
 								<MediaRef Id="902460813"/>
 							</MediaRefs>
 						</SwitchContainer>
@@ -415,7 +411,6 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="680904693" Id="300799497"/>
 							<MediaRefs>
-								<MediaRef Id="0"/>
 								<MediaRef Id="76555587"/>
 								<MediaRef Id="93677020"/>
 								<MediaRef Id="204935102"/>
@@ -428,9 +423,13 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="State" GroupId="680904693" Id="300799498"/>
 							<MediaRefs>
-								<MediaRef Id="0"/>
 								<MediaRef Id="76555587"/>
+								<MediaRef Id="93677020"/>
+								<MediaRef Id="204935102"/>
+								<MediaRef Id="221318138"/>
+								<MediaRef Id="604049455"/>
 								<MediaRef Id="623248831"/>
+								<MediaRef Id="902460813"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -481,5 +480,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{33D01596-6C9F-8920-4825-0E901E297071}</FileHash>
+	<FileHash>{36301E23-E7F4-23D2-32B9-397B7F80E8AF}</FileHash>
 </SoundBanksInfo>

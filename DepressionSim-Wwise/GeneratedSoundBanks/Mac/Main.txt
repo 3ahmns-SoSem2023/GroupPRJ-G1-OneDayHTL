@@ -8,10 +8,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	4228454885	Play_sfx_throwUp			\Default Work Unit\Play_sfx_throwUp	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	543744422	sfx_energyCanOpen	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\EnergyCanOpen_6DA10593.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_energyCanOpen		96832
-	610208307	sfx_bus-missed	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\Bus_68037D82.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_bus-missed		2230808
-	670554632	sfx_wecker_klingeln_early	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\WeckerKlingeln_A51155F1.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_wecker_klingeln_early		438768
-	735817762	sfx_button	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\Button_696FB7AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_button		45000
-	940211895	sfx_wecker_klingeln_late	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\WeckerKlingeln_4456C820.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_wecker_klingeln_late		2165404
-	980093806	sfx_throwUp	C:\0_HTLStuff\Wwise\projects\DepressionSim-Wwise\.cache\Mac\SFX\SickThrowUp_1C21A367.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_throwUp		340332
+	543744422	sfx_energyCanOpen	C:\0_HTLStuff\Unity\UnityProjects\Smeers\TheDepressionSimulator\GroupPRJ-G1-OneDayHTL\DepressionSim-Wwise\.cache\Mac\SFX\EnergyCanOpen_15E557C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_energyCanOpen		11109
+	610208307	sfx_bus-missed	C:\0_HTLStuff\Unity\UnityProjects\Smeers\TheDepressionSimulator\GroupPRJ-G1-OneDayHTL\DepressionSim-Wwise\.cache\Mac\SFX\Bus_680EDC52.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_bus-missed		194172
+	670554632	sfx_wecker_klingeln_early	C:\0_HTLStuff\Unity\UnityProjects\Smeers\TheDepressionSimulator\GroupPRJ-G1-OneDayHTL\DepressionSim-Wwise\.cache\Mac\SFX\WeckerKlingeln_84551101.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_wecker_klingeln_early		73081
+	735817762	sfx_button	C:\0_HTLStuff\Unity\UnityProjects\Smeers\TheDepressionSimulator\GroupPRJ-G1-OneDayHTL\DepressionSim-Wwise\.cache\Mac\SFX\Button_5AF73CCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_button		7098
+	940211895	sfx_wecker_klingeln_late	C:\0_HTLStuff\Unity\UnityProjects\Smeers\TheDepressionSimulator\GroupPRJ-G1-OneDayHTL\DepressionSim-Wwise\.cache\Mac\SFX\WeckerKlingeln_BE20FA90.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_wecker_klingeln_late		290776
+	980093806	sfx_throwUp	C:\0_HTLStuff\Unity\UnityProjects\Smeers\TheDepressionSimulator\GroupPRJ-G1-OneDayHTL\DepressionSim-Wwise\.cache\Mac\SFX\SickThrowUp_C2927ED7.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx\sfx_throwUp		28583
 
