@@ -46,11 +46,11 @@ public class StatusEffectStorage : MonoBehaviour
     {
         if (effectText == "/")
         {
-            effectText += "," + newEffect;
+            effectText = newEffect;
         }
         else
         {
-            effectText = newEffect;
+            effectText += "," + newEffect;
         }
     }
 
