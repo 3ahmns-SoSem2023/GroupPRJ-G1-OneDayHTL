@@ -27,7 +27,6 @@ public class TxT2 : MonoBehaviour
     }
 
     
-    // für das ending 11 fehlt die "tired" bzw "energy?" zwischenabfrage für einen Energ
 
     public void TextEnding11()
     {

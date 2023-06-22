@@ -23,6 +23,6 @@ public class TxT4 : MonoBehaviour
 
     public void TextEnding7()
     {
-        gameManager.texts[7].SetText("Okay: jetzt noch 1 1/2 h duchhalten, dann in der Big Break beim Buffet Pommes und Energy holen.");
+        gameManager.texts[7].SetText("Gratuliere! Du hast was gegessen und gelernt heute. Zwar nicht alles, und unbedingt gesund, aber du hast es durch den Tag gschafft.");
     }
 }
