@@ -15,6 +15,7 @@ public class StatusEffectStorage : MonoBehaviour
 
     public string FetchStatus()
     {
+        effectText = "/";
         NoEffectsCheck();
         return effectText;
     }
@@ -46,11 +47,11 @@ public class StatusEffectStorage : MonoBehaviour
     {
         if (effectText == "/")
         {
-            effectText = newEffect;
+            effectText = newEffect + ",";
         }
         else
         {
-            effectText += "," + newEffect;
+            effectText += newEffect + ",";
         }
     }
 
